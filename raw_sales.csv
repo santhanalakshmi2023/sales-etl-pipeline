@@ -1,0 +1,1201 @@
+sale_id,sale_date,product_id,product_name,category,region,sales_rep,quantity,unit_price,unit_cost,discount,revenue,profit,payment_method
+S00001,2024-02-14,P002,Mouse,Electronics,Central,Charlie,1,30,10,0.19,24.3,16.2,Cash
+S00002,2024-08-02,P001,Laptop,Electronics,Central,Alice,1,1200,800,0.02,1176.0,392.0,UPI
+S00003,2024-05-22,P008,Standing Desk,Furniture,East,Charlie,19,500,200,0.07,8835.0,5301.0,UPI
+S00004,2024-05-15,P004,Desk Chair,Furniture,Central,Fiona,11,250,100,0.03,2667.5,1600.5,Credit Card
+S00005,2024-07-04,P008,Standing Desk,Furniture,Central,Bob,18,500,200,0.03,8730.0,5238.0,UPI
+S00006,2024-07-13,P002,Mouse,Electronics,North,Bob,2,30,10,0.17,49.8,33.2,Net Banking
+S00007,2024-11-07,P008,Standing Desk,Furniture,North,Ethan,12,500,200,0.04,5760.0,3456.0,UPI
+S00008,2024-04-27,P009,Headphones,Electronics,North,Diana,8,150,50,0.04,1152.0,768.0,Credit Card
+S00009,2024-07-21,P006,Notebook,Stationery,West,Fiona,13,8,2,0.07,96.72,72.54,Cash
+S00010,2024-10-25,P003,Keyboard,Electronics,West,Ethan,9,60,20,0.03,523.8,349.2,Cash
+S00011,2024-02-26,P006,Notebook,Stationery,North,Hannah,8,8,2,0.25,48.0,36.0,UPI
+S00012,2024-01-06,P003,Keyboard,Electronics,Central,Hannah,14,60,20,0.15,714.0,476.0,Credit Card
+S00013,2024-01-02,P009,Headphones,Electronics,West,Ethan,9,150,50,0.19,1093.5,729.0,Net Banking
+S00014,2024-11-07,P009,Headphones,Electronics,Central,Ethan,6,150,50,0.13,783.0,522.0,UPI
+S00015,2024-01-10,P003,Keyboard,Electronics,West,Alice,12,60,20,0.19,583.2,388.8,Credit Card
+S00016,2024-02-05,P006,Notebook,Stationery,West,Bob,10,8,2,0.06,75.2,56.4,UPI
+S00017,2024-12-19,P003,Keyboard,Electronics,Central,George,16,60,20,0.24,729.6,486.4,UPI
+S00018,2024-03-02,P005,Monitor,Electronics,West,Hannah,13,350,150,0.25,3412.5,1950.0,UPI
+S00019,2024-02-06,P004,Desk Chair,Furniture,North,Diana,3,250,100,0.08,690.0,414.0,Credit Card
+S00020,2024-12-08,P004,Desk Chair,Furniture,East,Bob,3,250,100,0.23,577.5,346.5,Cash
+S00021,2024-07-27,P004,Desk Chair,Furniture,West,Hannah,18,250,100,0.03,4365.0,2619.0,UPI
+S00022,2024-12-10,P002,Mouse,Electronics,North,George,4,30,10,0.16,100.8,67.2,Credit Card
+S00023,2024-10-01,P001,Laptop,Electronics,South,Bob,13,1200,800,0.18,12792.0,4264.0,Cash
+S00024,2024-02-20,P003,Keyboard,Electronics,Central,Bob,14,60,20,0.05,798.0,532.0,Credit Card
+S00025,2024-09-03,P009,Headphones,Electronics,West,Diana,1,150,50,0.24,114.0,76.0,UPI
+S00026,2024-05-26,P007,Pen Pack,Stationery,West,,2,5,1,0.04,9.6,7.68,Cash
+S00027,2024-02-01,P009,Headphones,Electronics,Central,Alice,16,150,50,0.04,2304.0,1536.0,Net Banking
+S00028,2024-02-11,P001,Laptop,Electronics,Central,Charlie,2,1200,800,0.15,2040.0,680.0,UPI
+S00029,2024-05-06,P002,Mouse,Electronics,Central,George,20,30,10,0.02,588.0,392.0,Credit Card
+S00030,2024-12-08,P010,Webcam,Electronics,South,Fiona,3,90,30,0.1,243.0,162.0,Net Banking
+S00031,2024-01-05,P004,Desk Chair,Furniture,North,Ethan,9,250,100,0.1,2025.0,1215.0,Cash
+S00032,2024-06-27,P010,Webcam,Electronics,South,Diana,19,90,30,0.25,1282.5,855.0,Credit Card
+S00033,2024-01-05,P004,Desk Chair,Furniture,Central,Ethan,12,250,100,0.07,2790.0,1674.0,Net Banking
+S00034,2024-04-17,P002,Mouse,Electronics,Central,Charlie,5,30,10,0.07,139.5,93.0,Net Banking
+S00035,2024-05-21,P004,Desk Chair,Furniture,West,Alice,9,250,100,0.13,1957.5,1174.5,Credit Card
+S00036,2024-10-09,P001,Laptop,Electronics,West,Ethan,11,1200,800,0.19,10692.0,3564.0,Cash
+S00037,2024-10-25,P009,Headphones,Electronics,East,Charlie,1,150,50,0.03,145.5,97.0,UPI
+S00038,2024-12-15,P007,Pen Pack,Stationery,South,Alice,5,5,1,0.01,24.75,19.8,UPI
+S00039,2024-05-01,P002,Mouse,Electronics,South,George,12,30,10,0.2,288.0,192.0,UPI
+S00040,2024-12-08,P003,Keyboard,Electronics,West,Fiona,14,60,20,0.01,831.6,554.4,UPI
+S00041,2024-04-12,P005,Monitor,Electronics,South,Alice,6,350,150,0.2,1680.0,960.0,Cash
+S00042,2024-04-08,P006,Notebook,Stationery,,Diana,10,8,2,0.21,63.2,47.4,Cash
+S00043,2024-07-23,P006,Notebook,Stationery,Central,Ethan,9,8,2,0.22,56.16,42.12,Net Banking
+S00044,2024-11-01,P001,Laptop,Electronics,,Ethan,4,1200,800,0.22,3744.0,1248.0,Cash
+S00045,2024-04-07,P006,Notebook,Stationery,Central,Bob,11,8,2,0.11,78.32,58.74,Net Banking
+S00046,2024-12-06,P001,Laptop,Electronics,North,Diana,14,1200,800,0.0,16800.0,5600.0,Net Banking
+S00047,2024-06-16,P010,Webcam,Electronics,West,Ethan,11,90,30,0.17,821.7,547.8,Cash
+S00048,2024-11-11,P005,Monitor,Electronics,South,George,18,350,150,0.03,6111.0,3492.0,Net Banking
+S00049,2024-11-06,P007,Pen Pack,Stationery,Central,Diana,18,5,1,0.21,71.1,56.88,Net Banking
+S00050,2024-12-03,P008,Standing Desk,Furniture,South,Hannah,15,500,200,0.11,6675.0,4005.0,Credit Card
+S00051,2024-12-10,P005,Monitor,Electronics,South,Bob,17,350,150,0.17,4938.5,2822.0,Net Banking
+S00052,2024-02-07,P004,Desk Chair,Furniture,Central,,7,250,100,0.04,1680.0,1008.0,Cash
+S00053,2024-12-01,P007,Pen Pack,Stationery,South,Hannah,19,5,1,0.05,90.25,72.2,Credit Card
+S00054,2024-03-03,P002,Mouse,Electronics,South,Hannah,14,30,10,0.05,399.0,266.0,Cash
+S00055,2024-11-09,P003,Keyboard,Electronics,West,Fiona,15,60,20,0.17,747.0,498.0,Cash
+S00056,2024-11-22,P009,Headphones,Electronics,South,Hannah,15,150,50,0.22,1755.0,1170.0,Net Banking
+S00057,2024-05-19,P009,Headphones,Electronics,South,Bob,16,150,50,0.16,2016.0,1344.0,Net Banking
+S00058,2024-02-02,P006,Notebook,Stationery,South,George,18,8,2,0.02,141.12,105.84,Cash
+S00059,2024-10-26,P007,Pen Pack,Stationery,West,Diana,11,5,1,0.14,47.3,37.84,Credit Card
+S00060,2024-10-02,P010,Webcam,Electronics,West,Ethan,13,90,30,0.12,1029.6,686.4,UPI
+S00061,2024-03-25,P008,Standing Desk,Furniture,West,George,8,500,200,0.07,3720.0,2232.0,Cash
+S00062,2024-03-10,P003,Keyboard,Electronics,West,Alice,20,60,20,0.13,1044.0,696.0,Cash
+S00063,2024-05-22,P003,Keyboard,Electronics,West,Hannah,2,60,20,0.07,111.6,74.4,Cash
+S00064,2024-04-24,P005,Monitor,Electronics,East,Alice,3,350,150,0.12,924.0,528.0,Credit Card
+S00065,2024-03-05,P001,Laptop,Electronics,South,Alice,1,1200,800,0.24,912.0,304.0,Cash
+S00066,2024-11-06,P002,Mouse,Electronics,South,Ethan,19,30,10,0.24,433.2,288.8,Credit Card
+S00067,2024-07-22,P003,Keyboard,Electronics,West,,10,60,20,0.03,582.0,388.0,UPI
+S00068,2024-12-16,P002,Mouse,Electronics,East,Bob,19,30,10,0.17,473.1,315.4,Credit Card
+S00069,2024-01-07,P010,Webcam,Electronics,East,Fiona,2,90,30,0.09,163.8,109.2,Cash
+S00070,2024-03-31,P008,Standing Desk,Furniture,West,Hannah,4,500,200,0.11,1780.0,1068.0,Net Banking
+S00071,2024-02-14,P010,Webcam,Electronics,South,Ethan,18,90,30,0.19,1312.2,874.8,Net Banking
+S00072,2024-06-15,P008,Standing Desk,Furniture,West,George,8,500,200,0.19,3240.0,1944.0,UPI
+S00073,2024-10-11,P008,Standing Desk,Furniture,East,Ethan,7,500,200,0.09,3185.0,1911.0,Credit Card
+S00074,2024-12-19,P009,Headphones,Electronics,South,Hannah,7,150,50,0.02,1029.0,686.0,Cash
+S00075,2024-06-05,P008,Standing Desk,Furniture,South,Diana,15,500,200,0.2,6000.0,3600.0,Net Banking
+S00076,2024-05-18,P008,Standing Desk,Furniture,West,Fiona,18,500,200,0.13,7830.0,4698.0,Net Banking
+S00077,2024-04-08,P005,Monitor,Electronics,South,Bob,8,350,150,0.03,2716.0,1552.0,UPI
+S00078,2024-05-31,P008,Standing Desk,Furniture,South,Ethan,9,500,200,0.18,3690.0,2214.0,UPI
+S00079,2024-10-10,P006,Notebook,Stationery,North,Charlie,6,8,2,0.08,44.16,33.12,Net Banking
+S00080,2024-08-13,P003,Keyboard,Electronics,West,,16,60,20,0.03,931.2,620.8,Net Banking
+S00081,2024-09-08,P003,Keyboard,Electronics,West,Bob,2,60,20,0.06,112.8,75.2,Credit Card
+S00082,2024-03-01,P010,Webcam,Electronics,South,Ethan,2,90,30,0.04,172.8,115.2,Cash
+S00083,2024-06-01,P010,Webcam,Electronics,West,George,20,90,30,0.2,1440.0,960.0,Cash
+S00084,2024-11-16,P005,Monitor,Electronics,South,Bob,19,350,150,0.16,5586.0,3192.0,UPI
+S00085,2024-08-18,P005,Monitor,Electronics,West,Bob,3,350,150,0.04,1008.0,576.0,Cash
+S00086,2024-05-15,P005,Monitor,Electronics,South,Hannah,2,350,150,0.06,658.0,376.0,UPI
+S00087,2024-01-31,P007,Pen Pack,Stationery,North,Ethan,4,5,1,0.14,17.2,13.76,UPI
+S00088,2024-12-18,P005,Monitor,Electronics,West,Ethan,20,350,150,0.19,5670.0,3240.0,Net Banking
+S00089,2024-06-14,P007,Pen Pack,Stationery,West,Bob,9,5,1,0.13,39.15,31.32,Net Banking
+S00090,2024-10-22,P001,Laptop,Electronics,East,Alice,3,1200,800,0.06,3384.0,1128.0,Credit Card
+S00091,2024-08-11,P003,Keyboard,Electronics,Central,Ethan,16,60,20,0.13,835.2,556.8,Cash
+S00092,2024-07-29,P002,Mouse,Electronics,East,Bob,16,30,10,0.09,436.8,291.2,Cash
+S00093,2024-06-14,P005,Monitor,Electronics,East,Hannah,13,350,150,0.2,3640.0,2080.0,Credit Card
+S00094,2024-07-30,P007,Pen Pack,Stationery,West,,17,5,1,0.21,67.15,53.72,Credit Card
+S00095,2024-05-16,P004,Desk Chair,Furniture,South,Hannah,17,250,100,0.09,3867.5,2320.5,UPI
+S00096,2024-05-02,P005,Monitor,Electronics,Central,Alice,15,350,150,0.22,4095.0,2340.0,UPI
+S00097,2024-08-24,P005,Monitor,Electronics,North,Diana,18,350,150,0.0,6300.0,3600.0,Credit Card
+S00098,2024-08-29,P003,Keyboard,Electronics,West,Ethan,16,60,20,0.23,739.2,492.8,UPI
+S00099,2024-07-31,P008,Standing Desk,Furniture,East,Charlie,18,500,200,0.04,8640.0,5184.0,Net Banking
+S00100,2024-12-03,P009,Headphones,Electronics,Central,Ethan,9,150,50,0.21,1066.5,711.0,Cash
+S00101,2024-04-06,P003,Keyboard,Electronics,East,George,15,60,20,0.13,783.0,522.0,UPI
+S00102,2024-12-27,P010,Webcam,Electronics,West,Alice,13,90,30,0.06,1099.8,733.2,Cash
+S00103,2024-06-18,P007,Pen Pack,Stationery,Central,,5,5,1,0.12,22.0,17.6,Credit Card
+S00104,2024-02-08,P008,Standing Desk,Furniture,South,Charlie,4,500,200,0.13,1740.0,1044.0,Cash
+S00105,2024-07-13,P005,Monitor,Electronics,Central,Bob,11,350,150,0.16,3234.0,1848.0,Net Banking
+S00106,2024-08-10,P008,Standing Desk,Furniture,North,Ethan,18,500,200,0.01,8910.0,5346.0,Credit Card
+S00107,2024-01-29,P002,Mouse,Electronics,,Alice,15,30,10,0.04,432.0,288.0,Net Banking
+S00108,2024-03-28,P006,Notebook,Stationery,South,George,12,8,2,0.11,85.44,64.08,UPI
+S00109,2024-03-14,P002,Mouse,Electronics,Central,Diana,20,30,10,0.22,468.0,312.0,UPI
+S00110,2024-03-21,P008,Standing Desk,Furniture,Central,Hannah,9,500,200,0.11,4005.0,2403.0,Credit Card
+S00111,2024-06-03,P008,Standing Desk,Furniture,West,George,12,500,200,0.25,4500.0,2700.0,UPI
+S00112,2024-01-12,P007,Pen Pack,Stationery,East,Fiona,16,5,1,0.03,77.6,62.08,Cash
+S00113,2024-05-26,P005,Monitor,Electronics,West,Alice,1,350,150,0.14,301.0,172.0,UPI
+S00114,2024-11-17,P010,Webcam,Electronics,South,Ethan,12,90,30,0.05,1026.0,684.0,Credit Card
+S00115,2024-02-16,P001,Laptop,Electronics,South,,10,1200,800,0.2,9600.0,3200.0,Net Banking
+S00116,2024-03-25,P006,Notebook,Stationery,East,Fiona,14,8,2,0.04,107.52,80.64,Net Banking
+S00117,2024-03-13,P008,Standing Desk,Furniture,North,Bob,10,500,200,0.19,4050.0,2430.0,UPI
+S00118,2024-08-20,P007,Pen Pack,Stationery,North,Alice,18,5,1,0.09,81.9,65.52,Net Banking
+S00119,2024-08-29,P005,Monitor,Electronics,South,Fiona,19,350,150,0.1,5985.0,3420.0,Credit Card
+S00120,2024-12-24,P010,Webcam,Electronics,West,Bob,18,90,30,0.08,1490.4,993.6,Net Banking
+S00121,2024-02-19,P007,Pen Pack,Stationery,North,Ethan,4,5,1,0.03,19.4,15.52,UPI
+S00122,2024-07-31,P009,Headphones,Electronics,South,George,5,150,50,0.1,675.0,450.0,Credit Card
+S00123,2024-08-15,P008,Standing Desk,Furniture,South,Alice,20,500,200,0.1,9000.0,5400.0,Cash
+S00124,2024-04-07,P004,Desk Chair,Furniture,East,Fiona,12,250,100,0.02,2940.0,1764.0,Credit Card
+S00125,2024-05-04,P008,Standing Desk,Furniture,East,Alice,3,500,200,0.17,1245.0,747.0,UPI
+S00126,2024-06-17,P010,Webcam,Electronics,South,Diana,7,90,30,0.02,617.4,411.6,UPI
+S00127,2024-02-26,P010,Webcam,Electronics,South,Charlie,1,90,30,0.07,83.7,55.8,Credit Card
+S00128,2024-05-15,P003,Keyboard,Electronics,,Fiona,1,60,20,0.09,54.6,36.4,Credit Card
+S00129,2024-09-19,P003,Keyboard,Electronics,East,Hannah,14,60,20,0.13,730.8,487.2,Credit Card
+S00130,2024-02-01,P008,Standing Desk,Furniture,North,Ethan,17,500,200,0.06,7990.0,4794.0,Cash
+S00131,2024-06-13,P007,Pen Pack,Stationery,North,Hannah,14,5,1,0.17,58.1,46.48,UPI
+S00132,2024-09-28,P002,Mouse,Electronics,Central,Fiona,5,30,10,0.07,139.5,93.0,Net Banking
+S00133,2024-04-20,P008,Standing Desk,Furniture,Central,Bob,17,500,200,0.15,7225.0,4335.0,Cash
+S00134,2024-06-09,P008,Standing Desk,Furniture,North,George,8,500,200,0.1,3600.0,2160.0,Cash
+S00135,2024-02-17,P006,Notebook,Stationery,North,Hannah,9,8,2,0.09,65.52,49.14,Cash
+S00136,2024-06-30,P002,Mouse,Electronics,West,Fiona,12,30,10,0.2,288.0,192.0,Cash
+S00137,2024-04-24,P001,Laptop,Electronics,West,Diana,10,1200,800,0.15,10200.0,3400.0,Credit Card
+S00138,2024-11-14,P006,Notebook,Stationery,Central,Diana,18,8,2,0.09,131.04,98.28,Credit Card
+S00139,2024-01-04,P010,Webcam,Electronics,East,Ethan,9,90,30,0.01,801.9,534.6,UPI
+S00140,2024-04-20,P003,Keyboard,Electronics,Central,Alice,19,60,20,0.16,957.6,638.4,Cash
+S00141,2024-11-01,P007,Pen Pack,Stationery,Central,Fiona,15,5,1,0.09,68.25,54.6,Credit Card
+S00142,2024-09-05,P001,Laptop,Electronics,West,Bob,5,1200,800,0.04,5760.0,1920.0,Cash
+S00143,2024-12-13,P007,Pen Pack,Stationery,East,Fiona,9,5,1,0.05,42.75,34.2,Cash
+S00144,2024-06-03,P009,Headphones,Electronics,,Alice,10,150,50,0.01,1485.0,990.0,UPI
+S00145,2024-03-07,P003,Keyboard,Electronics,South,Hannah,9,60,20,0.07,502.2,334.8,Cash
+S00146,2024-08-11,P009,Headphones,Electronics,North,Fiona,8,150,50,0.13,1044.0,696.0,Credit Card
+S00147,2024-05-28,P008,Standing Desk,Furniture,West,George,3,500,200,0.22,1170.0,702.0,Credit Card
+S00148,2024-02-15,P007,Pen Pack,Stationery,East,Hannah,1,5,1,0.24,3.8,3.04,Cash
+S00149,2024-06-22,P002,Mouse,Electronics,East,Bob,8,30,10,0.11,213.6,142.4,UPI
+S00150,2024-06-28,P006,Notebook,Stationery,East,Diana,6,8,2,0.02,47.04,35.28,UPI
+S00151,2024-03-31,P004,Desk Chair,Furniture,North,Charlie,4,250,100,0.04,960.0,576.0,Cash
+S00152,2024-03-18,P008,Standing Desk,Furniture,East,Fiona,19,500,200,0.19,7695.0,4617.0,Cash
+S00153,2024-09-16,P002,Mouse,Electronics,East,Ethan,16,30,10,0.11,427.2,284.8,Credit Card
+S00154,2024-11-10,P005,Monitor,Electronics,North,Ethan,15,350,150,0.11,4672.5,2670.0,Cash
+S00155,2024-11-29,P008,Standing Desk,Furniture,Central,Alice,19,500,200,0.14,8170.0,4902.0,UPI
+S00156,2024-12-31,P006,Notebook,Stationery,East,Alice,20,8,2,0.12,140.8,105.6,Credit Card
+S00157,2024-03-22,P009,Headphones,Electronics,Central,Hannah,6,150,50,0.01,891.0,594.0,Net Banking
+S00158,2024-02-03,P006,Notebook,Stationery,East,Alice,10,8,2,0.1,72.0,54.0,Net Banking
+S00159,2024-12-05,P002,Mouse,Electronics,Central,Charlie,18,30,10,0.17,448.2,298.8,UPI
+S00160,2024-06-07,P006,Notebook,Stationery,North,George,10,8,2,0.24,60.8,45.6,Cash
+S00161,2024-09-17,P006,Notebook,Stationery,West,Bob,5,8,2,0.17,33.2,24.9,Net Banking
+S00162,2024-04-08,P001,Laptop,Electronics,West,Fiona,12,1200,800,0.08,13248.0,4416.0,UPI
+S00163,2024-09-26,P003,Keyboard,Electronics,Central,Bob,5,60,20,0.02,294.0,196.0,Credit Card
+S00164,2024-03-25,P006,Notebook,Stationery,Central,Charlie,20,8,2,0.03,155.2,116.4,Cash
+S00165,2024-04-29,P001,Laptop,Electronics,West,Hannah,14,1200,800,0.09,15288.0,5096.0,UPI
+S00166,2024-07-14,P005,Monitor,Electronics,East,Hannah,16,350,150,0.23,4312.0,2464.0,Cash
+S00167,2024-07-09,P003,Keyboard,Electronics,West,Ethan,7,60,20,0.2,336.0,224.0,Credit Card
+S00168,2024-03-16,P009,Headphones,Electronics,Central,Ethan,4,150,50,0.07,558.0,372.0,Cash
+S00169,2024-09-14,P002,Mouse,Electronics,West,Alice,8,30,10,0.2,192.0,128.0,Net Banking
+S00170,2024-12-31,P004,Desk Chair,Furniture,North,Alice,13,250,100,0.25,2437.5,1462.5,Net Banking
+S00171,2024-12-27,P003,Keyboard,Electronics,South,Hannah,5,60,20,0.01,297.0,198.0,Cash
+S00172,2024-10-07,P008,Standing Desk,Furniture,South,Ethan,20,500,200,0.0,10000.0,6000.0,Cash
+S00173,2024-08-22,P002,Mouse,Electronics,Central,Diana,10,30,10,0.06,282.0,188.0,Credit Card
+S00174,2024-03-14,P002,Mouse,Electronics,South,,16,30,10,0.15,408.0,272.0,Net Banking
+S00175,2024-09-25,P007,Pen Pack,Stationery,North,George,1,5,1,0.15,4.25,3.4,Net Banking
+S00176,2024-01-23,P002,Mouse,Electronics,West,Alice,17,30,10,0.14,438.6,292.4,Cash
+S00177,2024-10-24,P006,Notebook,Stationery,North,Bob,9,8,2,0.19,58.32,43.74,Net Banking
+S00178,2024-12-22,P003,Keyboard,Electronics,West,Charlie,2,60,20,0.09,109.2,72.8,Cash
+S00179,2024-04-13,P003,Keyboard,Electronics,,Hannah,5,60,20,0.02,294.0,196.0,Credit Card
+S00180,2024-08-30,P004,Desk Chair,Furniture,Central,George,2,250,100,0.08,460.0,276.0,Net Banking
+S00181,2024-05-19,P001,Laptop,Electronics,East,Alice,7,1200,800,0.07,7812.0,2604.0,Credit Card
+S00182,2024-09-11,P006,Notebook,Stationery,South,George,14,8,2,0.22,87.36,65.52,Cash
+S00183,2024-04-02,P006,Notebook,Stationery,Central,George,17,8,2,0.07,126.48,94.86,Net Banking
+S00184,2024-03-26,P006,Notebook,Stationery,West,Ethan,4,8,2,0.02,31.36,23.52,Cash
+S00185,2024-05-20,P006,Notebook,Stationery,West,Fiona,15,8,2,0.01,118.8,89.1,Credit Card
+S00186,2024-11-07,P002,Mouse,Electronics,South,Charlie,13,30,10,0.09,354.9,236.6,Cash
+S00187,2024-01-17,P001,Laptop,Electronics,Central,Fiona,5,1200,800,0.02,5880.0,1960.0,UPI
+S00188,2024-06-09,P008,Standing Desk,Furniture,West,Charlie,12,500,200,0.09,5460.0,3276.0,Net Banking
+S00189,2024-05-14,P004,Desk Chair,Furniture,North,George,4,250,100,0.01,990.0,594.0,Net Banking
+S00190,2024-02-07,P008,Standing Desk,Furniture,South,Hannah,7,500,200,0.25,2625.0,1575.0,Cash
+S00191,2024-10-08,P003,Keyboard,Electronics,North,Fiona,15,60,20,0.25,675.0,450.0,Net Banking
+S00192,2024-04-24,P005,Monitor,Electronics,Central,Charlie,6,350,150,0.18,1722.0,984.0,Credit Card
+S00193,2024-08-27,P004,Desk Chair,Furniture,East,Fiona,5,250,100,0.06,1175.0,705.0,UPI
+S00194,2024-10-21,P010,Webcam,Electronics,West,Hannah,3,90,30,0.02,264.6,176.4,Credit Card
+S00195,2024-11-23,P003,Keyboard,Electronics,Central,Fiona,11,60,20,0.16,554.4,369.6,UPI
+S00196,2024-03-25,P003,Keyboard,Electronics,East,Bob,14,60,20,0.13,730.8,487.2,UPI
+S00197,2024-04-10,P006,Notebook,Stationery,East,Ethan,8,8,2,0.09,58.24,43.68,Net Banking
+S00198,2024-03-19,P003,Keyboard,Electronics,Central,Charlie,10,60,20,0.15,510.0,340.0,UPI
+S00199,2024-02-11,P010,Webcam,Electronics,North,Alice,20,90,30,0.08,1656.0,1104.0,Credit Card
+S00200,2024-09-11,P010,Webcam,Electronics,North,George,9,90,30,0.16,680.4,453.6,Net Banking
+S00201,2024-12-18,P005,Monitor,Electronics,North,George,16,350,150,0.06,5264.0,3008.0,Credit Card
+S00202,2024-06-12,P003,Keyboard,Electronics,East,Fiona,15,60,20,0.1,810.0,540.0,Net Banking
+S00203,2024-03-03,P007,Pen Pack,Stationery,West,Bob,5,5,1,0.19,20.25,16.2,Net Banking
+S00204,2024-05-07,P008,Standing Desk,Furniture,West,George,8,500,200,0.04,3840.0,2304.0,UPI
+S00205,2024-08-27,P006,Notebook,Stationery,Central,Charlie,19,8,2,0.18,124.64,93.48,Cash
+S00206,2024-10-25,P005,Monitor,Electronics,South,Hannah,16,350,150,0.01,5544.0,3168.0,Net Banking
+S00207,2024-02-25,P001,Laptop,Electronics,North,Hannah,2,1200,800,0.07,2232.0,744.0,Cash
+S00208,2024-01-27,P003,Keyboard,Electronics,,Fiona,9,60,20,0.18,442.8,295.2,UPI
+S00209,2024-11-15,P006,Notebook,Stationery,East,Hannah,18,8,2,0.07,133.92,100.44,Credit Card
+S00210,2024-03-14,P003,Keyboard,Electronics,East,Fiona,4,60,20,0.1,216.0,144.0,UPI
+S00211,2024-12-31,P010,Webcam,Electronics,,,17,90,30,0.1,1377.0,918.0,Net Banking
+S00212,2024-06-12,P008,Standing Desk,Furniture,Central,Charlie,17,500,200,0.11,7565.0,4539.0,UPI
+S00213,2024-09-29,P007,Pen Pack,Stationery,Central,Fiona,20,5,1,0.18,82.0,65.6,Cash
+S00214,2024-08-01,P010,Webcam,Electronics,North,,10,90,30,0.12,792.0,528.0,Net Banking
+S00215,2024-09-02,P001,Laptop,Electronics,Central,Diana,20,1200,800,0.12,21120.0,7040.0,UPI
+S00216,2024-12-24,P009,Headphones,Electronics,,Diana,20,150,50,0.19,2430.0,1620.0,Credit Card
+S00217,2024-09-13,P004,Desk Chair,Furniture,West,George,1,250,100,0.11,222.5,133.5,Cash
+S00218,2024-03-29,P001,Laptop,Electronics,East,Hannah,5,1200,800,0.13,5220.0,1740.0,Cash
+S00219,2024-05-06,P009,Headphones,Electronics,South,Ethan,11,150,50,0.14,1419.0,946.0,Net Banking
+S00220,2024-12-19,P009,Headphones,Electronics,South,Ethan,10,150,50,0.06,1410.0,940.0,Cash
+S00221,2024-12-12,P006,Notebook,Stationery,Central,Ethan,16,8,2,0.09,116.48,87.36,Cash
+S00222,2024-12-31,P007,Pen Pack,Stationery,,Ethan,12,5,1,0.24,45.6,36.48,Credit Card
+S00223,2024-05-18,P006,Notebook,Stationery,Central,Diana,15,8,2,0.16,100.8,75.6,Net Banking
+S00224,2024-04-25,P003,Keyboard,Electronics,Central,Diana,4,60,20,0.15,204.0,136.0,UPI
+S00225,2024-01-03,P001,Laptop,Electronics,South,Bob,4,1200,800,0.1,4320.0,1440.0,UPI
+S00226,2024-02-15,P007,Pen Pack,Stationery,North,Ethan,16,5,1,0.12,70.4,56.32,UPI
+S00227,2024-07-22,P009,Headphones,Electronics,North,Charlie,2,150,50,0.23,231.0,154.0,Cash
+S00228,2024-06-20,P003,Keyboard,Electronics,North,,10,60,20,0.22,468.0,312.0,Net Banking
+S00229,2024-05-19,P008,Standing Desk,Furniture,West,Charlie,18,500,200,0.13,7830.0,4698.0,UPI
+S00230,2024-06-21,P002,Mouse,Electronics,North,Ethan,11,30,10,0.04,316.8,211.2,Net Banking
+S00231,2024-06-16,P010,Webcam,Electronics,Central,George,7,90,30,0.04,604.8,403.2,Credit Card
+S00232,2024-05-13,P007,Pen Pack,Stationery,North,Fiona,4,5,1,0.05,19.0,15.2,Cash
+S00233,2024-01-06,P004,Desk Chair,Furniture,Central,Ethan,15,250,100,0.19,3037.5,1822.5,Net Banking
+S00234,2024-12-26,P006,Notebook,Stationery,Central,Ethan,8,8,2,0.02,62.72,47.04,Net Banking
+S00235,2024-11-06,P002,Mouse,Electronics,West,Charlie,10,30,10,0.09,273.0,182.0,Net Banking
+S00236,2024-02-11,P007,Pen Pack,Stationery,Central,Diana,18,5,1,0.23,69.3,55.44,Cash
+S00237,2024-04-13,P009,Headphones,Electronics,Central,Alice,12,150,50,0.02,1764.0,1176.0,UPI
+S00238,2024-02-16,P003,Keyboard,Electronics,West,Diana,11,60,20,0.21,521.4,347.6,Cash
+S00239,2024-01-12,P001,Laptop,Electronics,East,Alice,15,1200,800,0.03,17460.0,5820.0,Cash
+S00240,2024-10-04,P005,Monitor,Electronics,North,Alice,1,350,150,0.19,283.5,162.0,Credit Card
+S00241,2024-07-10,P002,Mouse,Electronics,West,Charlie,16,30,10,0.01,475.2,316.8,Cash
+S00242,2024-03-01,P008,Standing Desk,Furniture,East,Charlie,13,500,200,0.09,5915.0,3549.0,UPI
+S00243,2024-06-01,P009,Headphones,Electronics,North,Diana,13,150,50,0.13,1696.5,1131.0,Cash
+S00244,2024-05-21,P009,Headphones,Electronics,South,Diana,14,150,50,0.13,1827.0,1218.0,UPI
+S00245,2024-02-21,P002,Mouse,Electronics,North,Alice,2,30,10,0.2,48.0,32.0,Credit Card
+S00246,2024-08-12,P008,Standing Desk,Furniture,West,Diana,20,500,200,0.17,8300.0,4980.0,UPI
+S00247,2024-04-29,P009,Headphones,Electronics,East,Charlie,7,150,50,0.19,850.5,567.0,Net Banking
+S00248,2024-12-04,P010,Webcam,Electronics,South,Diana,20,90,30,0.19,1458.0,972.0,UPI
+S00249,2024-10-11,P007,Pen Pack,Stationery,West,Charlie,10,5,1,0.07,46.5,37.2,Cash
+S00250,2024-03-17,P001,Laptop,Electronics,West,Fiona,12,1200,800,0.24,10944.0,3648.0,Net Banking
+S00251,2024-08-25,P007,Pen Pack,Stationery,South,Diana,6,5,1,0.19,24.3,19.44,Credit Card
+S00252,2024-04-14,P009,Headphones,Electronics,East,Charlie,14,150,50,0.24,1596.0,1064.0,Net Banking
+S00253,2024-12-10,P002,Mouse,Electronics,West,Diana,15,30,10,0.21,355.5,237.0,Credit Card
+S00254,2024-06-04,P002,Mouse,Electronics,East,Diana,7,30,10,0.2,168.0,112.0,Credit Card
+S00255,2024-12-26,P004,Desk Chair,Furniture,Central,Hannah,7,250,100,0.24,1330.0,798.0,UPI
+S00256,2024-06-06,P007,Pen Pack,Stationery,East,George,8,5,1,0.14,34.4,27.52,Net Banking
+S00257,2024-04-14,P006,Notebook,Stationery,East,Hannah,17,8,2,0.22,106.08,79.56,Net Banking
+S00258,2024-10-10,P006,Notebook,Stationery,,Charlie,14,8,2,0.01,110.88,83.16,Cash
+S00259,2024-05-11,P005,Monitor,Electronics,East,Diana,5,350,150,0.05,1662.5,950.0,Cash
+S00260,2024-09-07,P008,Standing Desk,Furniture,Central,Charlie,15,500,200,0.04,7200.0,4320.0,UPI
+S00261,2024-01-04,P009,Headphones,Electronics,North,Bob,2,150,50,0.13,261.0,174.0,Cash
+S00262,2024-01-31,P003,Keyboard,Electronics,East,Diana,8,60,20,0.02,470.4,313.6,Cash
+S00263,2024-05-20,P008,Standing Desk,Furniture,,Alice,1,500,200,0.0,500.0,300.0,Net Banking
+S00264,2024-09-25,P001,Laptop,Electronics,North,Charlie,17,1200,800,0.2,16320.0,5440.0,UPI
+S00265,2024-02-10,P004,Desk Chair,Furniture,West,Fiona,7,250,100,0.15,1487.5,892.5,Net Banking
+S00266,2024-11-30,P007,Pen Pack,Stationery,North,Diana,15,5,1,0.14,64.5,51.6,Credit Card
+S00267,2024-02-12,P002,Mouse,Electronics,South,Alice,13,30,10,0.09,354.9,236.6,Cash
+S00268,2024-04-27,P007,Pen Pack,Stationery,North,Bob,11,5,1,0.14,47.3,37.84,UPI
+S00269,2024-12-02,P010,Webcam,Electronics,Central,Ethan,16,90,30,0.07,1339.2,892.8,Credit Card
+S00270,2024-02-09,P003,Keyboard,Electronics,West,Charlie,11,60,20,0.0,660.0,440.0,Net Banking
+S00271,2024-06-18,P003,Keyboard,Electronics,Central,George,19,60,20,0.06,1071.6,714.4,Cash
+S00272,2024-02-08,P003,Keyboard,Electronics,South,Alice,3,60,20,0.13,156.6,104.4,Net Banking
+S00273,2024-05-19,P010,Webcam,Electronics,,Fiona,20,90,30,0.24,1368.0,912.0,Cash
+S00274,2024-12-04,P008,Standing Desk,Furniture,Central,George,8,500,200,0.09,3640.0,2184.0,Cash
+S00275,2024-07-13,P002,Mouse,Electronics,South,Bob,20,30,10,0.07,558.0,372.0,UPI
+S00276,2024-02-22,P007,Pen Pack,Stationery,East,Ethan,11,5,1,0.09,50.05,40.04,UPI
+S00277,2024-06-30,P002,Mouse,Electronics,North,George,6,30,10,0.11,160.2,106.8,Credit Card
+S00278,2024-02-13,P010,Webcam,Electronics,West,Alice,20,90,30,0.2,1440.0,960.0,UPI
+S00279,2024-09-09,P010,Webcam,Electronics,East,Charlie,17,90,30,0.04,1468.8,979.2,UPI
+S00280,2024-05-08,P002,Mouse,Electronics,East,Hannah,6,30,10,0.11,160.2,106.8,UPI
+S00281,2024-06-19,P008,Standing Desk,Furniture,West,Charlie,20,500,200,0.15,8500.0,5100.0,Cash
+S00282,2024-12-21,P006,Notebook,Stationery,Central,Charlie,15,8,2,0.08,110.4,82.8,UPI
+S00283,2024-10-21,P008,Standing Desk,Furniture,West,Fiona,11,500,200,0.04,5280.0,3168.0,UPI
+S00284,2024-04-12,P006,Notebook,Stationery,Central,Fiona,13,8,2,0.07,96.72,72.54,UPI
+S00285,2024-12-20,P009,Headphones,Electronics,East,Diana,1,150,50,0.24,114.0,76.0,Credit Card
+S00286,2024-07-12,P007,Pen Pack,Stationery,West,Ethan,16,5,1,0.03,77.6,62.08,Credit Card
+S00287,2024-12-25,P008,Standing Desk,Furniture,East,George,20,500,200,0.12,8800.0,5280.0,Credit Card
+S00288,2024-06-18,P002,Mouse,Electronics,West,Alice,8,30,10,0.16,201.6,134.4,Cash
+S00289,2024-08-25,P002,Mouse,Electronics,West,Diana,1,30,10,0.02,29.4,19.6,UPI
+S00290,2024-06-27,P006,Notebook,Stationery,South,Bob,1,8,2,0.12,7.04,5.28,Net Banking
+S00291,2024-12-22,P006,Notebook,Stationery,West,Fiona,15,8,2,0.2,96.0,72.0,Cash
+S00292,2024-06-24,P006,Notebook,Stationery,,Bob,3,8,2,0.08,22.08,16.56,Credit Card
+S00293,2024-04-28,P003,Keyboard,Electronics,West,Fiona,8,60,20,0.13,417.6,278.4,Cash
+S00294,2024-08-18,P003,Keyboard,Electronics,South,Alice,6,60,20,0.16,302.4,201.6,Cash
+S00295,2024-04-05,P007,Pen Pack,Stationery,Central,Bob,1,5,1,0.18,4.1,3.28,Net Banking
+S00296,2024-11-01,P006,Notebook,Stationery,East,Hannah,7,8,2,0.11,49.84,37.38,Cash
+S00297,2024-11-10,P010,Webcam,Electronics,East,Hannah,13,90,30,0.15,994.5,663.0,Credit Card
+S00298,2024-09-18,P003,Keyboard,Electronics,South,Charlie,11,60,20,0.03,640.2,426.8,Cash
+S00299,2024-12-21,P007,Pen Pack,Stationery,Central,Charlie,20,5,1,0.03,97.0,77.6,UPI
+S00300,2024-01-28,P009,Headphones,Electronics,Central,Fiona,6,150,50,0.12,792.0,528.0,Net Banking
+S00301,2024-07-31,P001,Laptop,Electronics,West,Hannah,16,1200,800,0.03,18624.0,6208.0,Cash
+S00302,2024-01-17,P008,Standing Desk,Furniture,East,,6,500,200,0.02,2940.0,1764.0,Net Banking
+S00303,2024-10-20,P004,Desk Chair,Furniture,North,Hannah,18,250,100,0.07,4185.0,2511.0,Credit Card
+S00304,2024-10-06,P005,Monitor,Electronics,West,Alice,18,350,150,0.21,4977.0,2844.0,UPI
+S00305,2024-08-18,P007,Pen Pack,Stationery,North,Diana,4,5,1,0.18,16.4,13.12,Net Banking
+S00306,2024-12-18,P006,Notebook,Stationery,Central,Diana,3,8,2,0.11,21.36,16.02,Net Banking
+S00307,2024-10-18,P010,Webcam,Electronics,North,Diana,14,90,30,0.04,1209.6,806.4,Net Banking
+S00308,2024-09-20,P009,Headphones,Electronics,East,Ethan,9,150,50,0.15,1147.5,765.0,Credit Card
+S00309,2024-05-07,P003,Keyboard,Electronics,South,Charlie,14,60,20,0.23,646.8,431.2,UPI
+S00310,2024-11-17,P006,Notebook,Stationery,East,Hannah,8,8,2,0.19,51.84,38.88,Cash
+S00311,2024-12-21,P007,Pen Pack,Stationery,East,Bob,15,5,1,0.02,73.5,58.8,Net Banking
+S00312,2024-08-22,P008,Standing Desk,Furniture,North,,16,500,200,0.08,7360.0,4416.0,Net Banking
+S00313,2024-05-25,P002,Mouse,Electronics,East,Diana,18,30,10,0.1,486.0,324.0,Net Banking
+S00314,2024-01-24,P009,Headphones,Electronics,North,Fiona,19,150,50,0.03,2764.5,1843.0,Credit Card
+S00315,2024-04-13,P008,Standing Desk,Furniture,West,Hannah,1,500,200,0.03,485.0,291.0,UPI
+S00316,2024-02-12,P005,Monitor,Electronics,East,Bob,6,350,150,0.22,1638.0,936.0,Net Banking
+S00317,2024-12-26,P003,Keyboard,Electronics,North,Diana,2,60,20,0.1,108.0,72.0,Credit Card
+S00318,2024-01-05,P001,Laptop,Electronics,West,Diana,7,1200,800,0.12,7392.0,2464.0,Credit Card
+S00319,2024-07-15,P006,Notebook,Stationery,South,Charlie,4,8,2,0.25,24.0,18.0,Credit Card
+S00320,2024-11-24,P002,Mouse,Electronics,South,Charlie,4,30,10,0.08,110.4,73.6,UPI
+S00321,2024-11-17,P002,Mouse,Electronics,South,Charlie,17,30,10,0.14,438.6,292.4,UPI
+S00322,2024-03-04,P007,Pen Pack,Stationery,South,Bob,20,5,1,0.17,83.0,66.4,Cash
+S00323,2024-10-10,P006,Notebook,Stationery,South,Ethan,14,8,2,0.08,103.04,77.28,Net Banking
+S00324,2024-11-26,P001,Laptop,Electronics,East,Diana,10,1200,800,0.05,11400.0,3800.0,Credit Card
+S00325,2024-07-03,P004,Desk Chair,Furniture,North,Bob,16,250,100,0.1,3600.0,2160.0,Net Banking
+S00326,2024-08-29,P003,Keyboard,Electronics,South,Fiona,13,60,20,0.22,608.4,405.6,Credit Card
+S00327,2024-09-16,P001,Laptop,Electronics,West,Alice,19,1200,800,0.02,22344.0,7448.0,Net Banking
+S00328,2024-02-10,P009,Headphones,Electronics,East,Charlie,14,150,50,0.11,1869.0,1246.0,UPI
+S00329,2024-05-02,P003,Keyboard,Electronics,West,Bob,18,60,20,0.08,993.6,662.4,Credit Card
+S00330,2024-03-02,P004,Desk Chair,Furniture,South,Alice,3,250,100,0.23,577.5,346.5,Credit Card
+S00331,2024-05-17,P003,Keyboard,Electronics,South,Ethan,1,60,20,0.04,57.6,38.4,Credit Card
+S00332,2024-11-17,P001,Laptop,Electronics,Central,Bob,11,1200,800,0.2,10560.0,3520.0,Credit Card
+S00333,2024-02-22,P008,Standing Desk,Furniture,East,Charlie,15,500,200,0.13,6525.0,3915.0,Credit Card
+S00334,2024-07-05,P004,Desk Chair,Furniture,West,Alice,17,250,100,0.0,4250.0,2550.0,Cash
+S00335,2024-08-01,P003,Keyboard,Electronics,South,George,6,60,20,0.23,277.2,184.8,Net Banking
+S00336,2024-01-24,P005,Monitor,Electronics,Central,Alice,3,350,150,0.14,903.0,516.0,Cash
+S00337,2024-08-21,P002,Mouse,Electronics,Central,Ethan,15,30,10,0.22,351.0,234.0,Credit Card
+S00338,2024-09-09,P006,Notebook,Stationery,Central,Diana,7,8,2,0.07,52.08,39.06,UPI
+S00339,2024-11-21,P009,Headphones,Electronics,East,Alice,8,150,50,0.04,1152.0,768.0,Credit Card
+S00340,2024-05-01,P006,Notebook,Stationery,Central,Ethan,1,8,2,0.19,6.48,4.86,Cash
+S00341,2024-09-23,P008,Standing Desk,Furniture,South,Ethan,2,500,200,0.24,760.0,456.0,Cash
+S00342,2024-02-08,P006,Notebook,Stationery,West,Bob,15,8,2,0.24,91.2,68.4,Credit Card
+S00343,2024-12-24,P007,Pen Pack,Stationery,West,Fiona,5,5,1,0.06,23.5,18.8,Net Banking
+S00344,2024-02-25,P006,Notebook,Stationery,Central,Diana,15,8,2,0.07,111.6,83.7,UPI
+S00345,2024-08-19,P002,Mouse,Electronics,South,Bob,6,30,10,0.11,160.2,106.8,Net Banking
+S00346,2024-01-21,P008,Standing Desk,Furniture,Central,Ethan,9,500,200,0.21,3555.0,2133.0,UPI
+S00347,2024-12-12,P006,Notebook,Stationery,North,Fiona,5,8,2,0.02,39.2,29.4,Net Banking
+S00348,2024-05-07,P005,Monitor,Electronics,Central,Hannah,6,350,150,0.01,2079.0,1188.0,Credit Card
+S00349,2024-03-07,P008,Standing Desk,Furniture,South,Alice,4,500,200,0.2,1600.0,960.0,UPI
+S00350,2024-02-08,P007,Pen Pack,Stationery,East,Bob,12,5,1,0.17,49.8,39.84,Credit Card
+S00351,2024-03-03,P002,Mouse,Electronics,East,Charlie,7,30,10,0.23,161.7,107.8,Credit Card
+S00352,2024-12-15,P008,Standing Desk,Furniture,West,George,2,500,200,0.04,960.0,576.0,Cash
+S00353,2024-01-18,P003,Keyboard,Electronics,South,Ethan,12,60,20,0.05,684.0,456.0,UPI
+S00354,2024-03-11,P005,Monitor,Electronics,West,Alice,16,350,150,0.1,5040.0,2880.0,Cash
+S00355,2024-09-02,P004,Desk Chair,Furniture,East,Alice,17,250,100,0.06,3995.0,2397.0,Cash
+S00356,2024-11-01,P006,Notebook,Stationery,,Charlie,19,8,2,0.13,132.24,99.18,UPI
+S00357,2024-03-22,P001,Laptop,Electronics,South,Fiona,9,1200,800,0.01,10692.0,3564.0,Credit Card
+S00358,2024-10-21,P004,Desk Chair,Furniture,South,Alice,8,250,100,0.07,1860.0,1116.0,Cash
+S00359,2024-12-26,P006,Notebook,Stationery,North,Fiona,6,8,2,0.04,46.08,34.56,Net Banking
+S00360,2024-09-08,P010,Webcam,Electronics,South,Hannah,19,90,30,0.04,1641.6,1094.4,Credit Card
+S00361,2024-11-10,P002,Mouse,Electronics,,Hannah,2,30,10,0.06,56.4,37.6,UPI
+S00362,2024-10-27,P003,Keyboard,Electronics,South,Fiona,11,60,20,0.18,541.2,360.8,UPI
+S00363,2024-10-27,P002,Mouse,Electronics,West,Fiona,17,30,10,0.22,397.8,265.2,Credit Card
+S00364,2024-11-28,P006,Notebook,Stationery,West,George,10,8,2,0.08,73.6,55.2,Net Banking
+S00365,2024-03-30,P003,Keyboard,Electronics,Central,Fiona,18,60,20,0.17,896.4,597.6,Cash
+S00366,2024-01-17,P005,Monitor,Electronics,Central,George,10,350,150,0.03,3395.0,1940.0,UPI
+S00367,2024-09-11,P010,Webcam,Electronics,North,Diana,11,90,30,0.23,762.3,508.2,UPI
+S00368,2024-12-28,P006,Notebook,Stationery,North,Charlie,3,8,2,0.06,22.56,16.92,Net Banking
+S00369,2024-01-01,P008,Standing Desk,Furniture,North,Bob,1,500,200,0.07,465.0,279.0,Credit Card
+S00370,2024-06-28,P007,Pen Pack,Stationery,West,George,15,5,1,0.18,61.5,49.2,Cash
+S00371,2024-01-18,P002,Mouse,Electronics,North,Diana,16,30,10,0.2,384.0,256.0,Net Banking
+S00372,2024-03-23,P001,Laptop,Electronics,West,Fiona,11,1200,800,0.07,12276.0,4092.0,Credit Card
+S00373,2024-11-30,P009,Headphones,Electronics,West,Hannah,3,150,50,0.08,414.0,276.0,UPI
+S00374,2024-12-22,P010,Webcam,Electronics,West,Diana,14,90,30,0.04,1209.6,806.4,Net Banking
+S00375,2024-03-19,P005,Monitor,Electronics,West,,10,350,150,0.06,3290.0,1880.0,Credit Card
+S00376,2024-04-15,P006,Notebook,Stationery,North,Hannah,1,8,2,0.11,7.12,5.34,UPI
+S00377,2024-02-16,P005,Monitor,Electronics,East,George,3,350,150,0.12,924.0,528.0,Cash
+S00378,2024-08-13,P003,Keyboard,Electronics,,Hannah,12,60,20,0.22,561.6,374.4,Cash
+S00379,2024-02-13,P005,Monitor,Electronics,North,Charlie,8,350,150,0.21,2212.0,1264.0,Net Banking
+S00380,2024-08-02,P009,Headphones,Electronics,Central,Alice,14,150,50,0.24,1596.0,1064.0,Cash
+S00381,2024-10-19,P010,Webcam,Electronics,Central,Alice,8,90,30,0.12,633.6,422.4,UPI
+S00382,2024-01-22,P002,Mouse,Electronics,South,Diana,15,30,10,0.04,432.0,288.0,Cash
+S00383,2024-06-12,P002,Mouse,Electronics,East,Charlie,14,30,10,0.05,399.0,266.0,Credit Card
+S00384,2024-12-24,P002,Mouse,Electronics,North,Ethan,13,30,10,0.14,335.4,223.6,Cash
+S00385,2024-02-21,P002,Mouse,Electronics,Central,Bob,14,30,10,0.04,403.2,268.8,Net Banking
+S00386,2024-01-20,P009,Headphones,Electronics,West,Hannah,12,150,50,0.22,1404.0,936.0,UPI
+S00387,2024-06-18,P005,Monitor,Electronics,,George,13,350,150,0.04,4368.0,2496.0,UPI
+S00388,2024-06-08,P001,Laptop,Electronics,East,Alice,16,1200,800,0.23,14784.0,4928.0,Net Banking
+S00389,2024-06-13,P008,Standing Desk,Furniture,West,Ethan,4,500,200,0.24,1520.0,912.0,Net Banking
+S00390,2024-09-05,P007,Pen Pack,Stationery,West,Diana,20,5,1,0.16,84.0,67.2,Net Banking
+S00391,2024-10-18,P001,Laptop,Electronics,Central,George,17,1200,800,0.2,16320.0,5440.0,Credit Card
+S00392,2024-01-26,P003,Keyboard,Electronics,West,Alice,7,60,20,0.22,327.6,218.4,Net Banking
+S00393,2024-12-14,P004,Desk Chair,Furniture,North,George,9,250,100,0.09,2047.5,1228.5,Credit Card
+S00394,2024-06-25,P004,Desk Chair,Furniture,East,Hannah,12,250,100,0.12,2640.0,1584.0,UPI
+S00395,2024-04-23,P005,Monitor,Electronics,South,Charlie,3,350,150,0.07,976.5,558.0,UPI
+S00396,2024-11-27,P004,Desk Chair,Furniture,South,Alice,9,250,100,0.16,1890.0,1134.0,UPI
+S00397,2024-08-04,P010,Webcam,Electronics,East,Ethan,1,90,30,0.06,84.6,56.4,Cash
+S00398,2024-09-18,P006,Notebook,Stationery,North,George,15,8,2,0.06,112.8,84.6,Net Banking
+S00399,2024-05-21,P009,Headphones,Electronics,East,Bob,20,150,50,0.15,2550.0,1700.0,Net Banking
+S00400,2024-05-03,P005,Monitor,Electronics,Central,Ethan,9,350,150,0.16,2646.0,1512.0,Credit Card
+S00401,2024-05-12,P010,Webcam,Electronics,East,Alice,13,90,30,0.17,971.1,647.4,Cash
+S00402,2024-12-17,P007,Pen Pack,Stationery,South,Diana,13,5,1,0.18,53.3,42.64,Cash
+S00403,2024-03-06,P006,Notebook,Stationery,West,Charlie,17,8,2,0.08,125.12,93.84,Net Banking
+S00404,2024-06-06,P009,Headphones,Electronics,South,Bob,6,150,50,0.24,684.0,456.0,Cash
+S00405,2024-10-24,P006,Notebook,Stationery,Central,Bob,12,8,2,0.07,89.28,66.96,Credit Card
+S00406,2024-01-28,P008,Standing Desk,Furniture,West,George,7,500,200,0.13,3045.0,1827.0,UPI
+S00407,2024-02-11,P003,Keyboard,Electronics,South,Hannah,7,60,20,0.09,382.2,254.8,Cash
+S00408,2024-10-22,P006,Notebook,Stationery,South,Hannah,6,8,2,0.08,44.16,33.12,UPI
+S00409,2024-07-15,P008,Standing Desk,Furniture,West,George,3,500,200,0.03,1455.0,873.0,Credit Card
+S00410,2024-04-07,P001,Laptop,Electronics,Central,Alice,18,1200,800,0.05,20520.0,6840.0,Credit Card
+S00411,2024-09-14,P001,Laptop,Electronics,West,Ethan,8,1200,800,0.06,9024.0,3008.0,Net Banking
+S00412,2024-11-01,P003,Keyboard,Electronics,Central,Ethan,3,60,20,0.21,142.2,94.8,Net Banking
+S00413,2024-07-25,P007,Pen Pack,Stationery,South,Fiona,5,5,1,0.09,22.75,18.2,Credit Card
+S00414,2024-03-04,P004,Desk Chair,Furniture,South,Alice,8,250,100,0.18,1640.0,984.0,Net Banking
+S00415,2024-12-04,P001,Laptop,Electronics,North,Alice,13,1200,800,0.22,12168.0,4056.0,Credit Card
+S00416,2024-08-30,P001,Laptop,Electronics,East,George,2,1200,800,0.17,1992.0,664.0,UPI
+S00417,2024-08-02,P004,Desk Chair,Furniture,South,Ethan,1,250,100,0.08,230.0,138.0,Credit Card
+S00418,2024-04-12,P009,Headphones,Electronics,Central,Bob,20,150,50,0.03,2910.0,1940.0,Net Banking
+S00419,2024-09-11,P009,Headphones,Electronics,,Charlie,7,150,50,0.09,955.5,637.0,UPI
+S00420,2024-10-20,P008,Standing Desk,Furniture,North,,11,500,200,0.06,5170.0,3102.0,Cash
+S00421,2024-08-21,P003,Keyboard,Electronics,South,Bob,3,60,20,0.19,145.8,97.2,Net Banking
+S00422,2024-12-12,P005,Monitor,Electronics,East,Alice,15,350,150,0.01,5197.5,2970.0,Net Banking
+S00423,2024-03-11,P007,Pen Pack,Stationery,,Alice,4,5,1,0.02,19.6,15.68,UPI
+S00424,2024-07-09,P006,Notebook,Stationery,North,Ethan,12,8,2,0.22,74.88,56.16,Net Banking
+S00425,2024-08-03,P003,Keyboard,Electronics,West,Ethan,4,60,20,0.1,216.0,144.0,UPI
+S00426,2024-09-04,P002,Mouse,Electronics,Central,Charlie,5,30,10,0.17,124.5,83.0,Cash
+S00427,2024-09-04,P003,Keyboard,Electronics,South,Alice,20,60,20,0.09,1092.0,728.0,Cash
+S00428,2024-12-13,P002,Mouse,Electronics,,Fiona,14,30,10,0.11,373.8,249.2,UPI
+S00429,2024-09-03,P006,Notebook,Stationery,South,Bob,17,8,2,0.13,118.32,88.74,Net Banking
+S00430,2024-03-21,P007,Pen Pack,Stationery,,Alice,5,5,1,0.21,19.75,15.8,Cash
+S00431,2024-01-26,P008,Standing Desk,Furniture,East,Diana,6,500,200,0.02,2940.0,1764.0,UPI
+S00432,2024-08-17,P009,Headphones,Electronics,Central,Hannah,13,150,50,0.1,1755.0,1170.0,Credit Card
+S00433,2024-01-19,P008,Standing Desk,Furniture,West,Alice,15,500,200,0.08,6900.0,4140.0,Credit Card
+S00434,2024-06-23,P002,Mouse,Electronics,West,Diana,20,30,10,0.24,456.0,304.0,Net Banking
+S00435,2024-08-19,P001,Laptop,Electronics,East,Hannah,8,1200,800,0.21,7584.0,2528.0,Credit Card
+S00436,2024-12-25,P002,Mouse,Electronics,East,Ethan,8,30,10,0.0,240.0,160.0,Credit Card
+S00437,2024-04-10,P001,Laptop,Electronics,Central,George,6,1200,800,0.12,6336.0,2112.0,UPI
+S00438,2024-07-31,P002,Mouse,Electronics,North,Diana,13,30,10,0.05,370.5,247.0,Credit Card
+S00439,2024-09-28,P010,Webcam,Electronics,North,Charlie,4,90,30,0.19,291.6,194.4,Credit Card
+S00440,2024-03-06,P009,Headphones,Electronics,South,Charlie,14,150,50,0.21,1659.0,1106.0,Credit Card
+S00441,2024-12-20,P007,Pen Pack,Stationery,Central,George,20,5,1,0.15,85.0,68.0,UPI
+S00442,2024-07-30,P005,Monitor,Electronics,South,Hannah,13,350,150,0.24,3458.0,1976.0,Net Banking
+S00443,2024-12-31,P009,Headphones,Electronics,Central,Diana,11,150,50,0.18,1353.0,902.0,Net Banking
+S00444,2024-12-29,P006,Notebook,Stationery,East,Charlie,5,8,2,0.25,30.0,22.5,Credit Card
+S00445,2024-05-26,P006,Notebook,Stationery,Central,George,18,8,2,0.12,126.72,95.04,Cash
+S00446,2024-05-16,P001,Laptop,Electronics,South,Alice,17,1200,800,0.03,19788.0,6596.0,UPI
+S00447,2024-01-17,P005,Monitor,Electronics,Central,Ethan,9,350,150,0.04,3024.0,1728.0,Net Banking
+S00448,2024-07-18,P008,Standing Desk,Furniture,Central,Diana,4,500,200,0.15,1700.0,1020.0,UPI
+S00449,2024-12-16,P009,Headphones,Electronics,West,,10,150,50,0.17,1245.0,830.0,Net Banking
+S00450,2024-10-28,P009,Headphones,Electronics,East,Hannah,2,150,50,0.0,300.0,200.0,UPI
+S00451,2024-09-20,P004,Desk Chair,Furniture,South,Bob,10,250,100,0.11,2225.0,1335.0,Credit Card
+S00452,2024-01-03,P007,Pen Pack,Stationery,East,Charlie,2,5,1,0.11,8.9,7.12,Net Banking
+S00453,2024-12-04,P008,Standing Desk,Furniture,Central,Alice,5,500,200,0.01,2475.0,1485.0,Net Banking
+S00454,2024-09-23,P008,Standing Desk,Furniture,South,Fiona,19,500,200,0.14,8170.0,4902.0,Credit Card
+S00455,2024-12-05,P009,Headphones,Electronics,South,Bob,6,150,50,0.1,810.0,540.0,Net Banking
+S00456,2024-02-28,P006,Notebook,Stationery,North,Hannah,12,8,2,0.07,89.28,66.96,Net Banking
+S00457,2024-07-14,P008,Standing Desk,Furniture,East,Diana,8,500,200,0.23,3080.0,1848.0,Credit Card
+S00458,2024-08-16,P007,Pen Pack,Stationery,Central,Fiona,9,5,1,0.14,38.7,30.96,Cash
+S00459,2024-10-02,P001,Laptop,Electronics,South,Bob,10,1200,800,0.22,9360.0,3120.0,Credit Card
+S00460,2024-10-02,P002,Mouse,Electronics,South,George,7,30,10,0.17,174.3,116.2,Cash
+S00461,2024-04-01,P002,Mouse,Electronics,North,Alice,5,30,10,0.01,148.5,99.0,Net Banking
+S00462,2024-11-18,P009,Headphones,Electronics,West,Ethan,3,150,50,0.14,387.0,258.0,Cash
+S00463,2024-02-02,P007,Pen Pack,Stationery,Central,Alice,11,5,1,0.0,55.0,44.0,Credit Card
+S00464,2024-08-12,P002,Mouse,Electronics,East,Ethan,12,30,10,0.23,277.2,184.8,Cash
+S00465,2024-05-31,P007,Pen Pack,Stationery,Central,Charlie,1,5,1,0.12,4.4,3.52,UPI
+S00466,2024-03-04,P005,Monitor,Electronics,South,,12,350,150,0.24,3192.0,1824.0,Credit Card
+S00467,2024-04-18,P001,Laptop,Electronics,East,Bob,19,1200,800,0.15,19380.0,6460.0,Cash
+S00468,2024-12-09,P009,Headphones,Electronics,South,Ethan,5,150,50,0.04,720.0,480.0,Credit Card
+S00469,2024-10-24,P009,Headphones,Electronics,South,Bob,15,150,50,0.16,1890.0,1260.0,Cash
+S00470,2024-04-09,P006,Notebook,Stationery,North,Bob,12,8,2,0.03,93.12,69.84,Net Banking
+S00471,2024-06-10,P008,Standing Desk,Furniture,East,Charlie,15,500,200,0.08,6900.0,4140.0,Cash
+S00472,2024-03-09,P003,Keyboard,Electronics,East,George,1,60,20,0.08,55.2,36.8,Net Banking
+S00473,2024-11-26,P008,Standing Desk,Furniture,South,Hannah,15,500,200,0.11,6675.0,4005.0,Credit Card
+S00474,2024-09-16,P005,Monitor,Electronics,North,Bob,5,350,150,0.22,1365.0,780.0,Credit Card
+S00475,2024-10-03,P010,Webcam,Electronics,Central,Alice,19,90,30,0.1,1539.0,1026.0,Cash
+S00476,2024-09-18,P003,Keyboard,Electronics,Central,Ethan,12,60,20,0.1,648.0,432.0,Credit Card
+S00477,2024-08-16,P007,Pen Pack,Stationery,South,Charlie,12,5,1,0.13,52.2,41.76,UPI
+S00478,2024-07-02,P003,Keyboard,Electronics,West,Charlie,19,60,20,0.24,866.4,577.6,Credit Card
+S00479,2024-04-15,P004,Desk Chair,Furniture,,Diana,16,250,100,0.06,3760.0,2256.0,Net Banking
+S00480,2024-02-22,P007,Pen Pack,Stationery,East,Alice,16,5,1,0.23,61.6,49.28,Net Banking
+S00481,2024-09-21,P005,Monitor,Electronics,North,George,19,350,150,0.14,5719.0,3268.0,Net Banking
+S00482,2024-11-05,P007,Pen Pack,Stationery,West,Fiona,8,5,1,0.13,34.8,27.84,Credit Card
+S00483,2024-03-21,P009,Headphones,Electronics,South,Ethan,5,150,50,0.11,667.5,445.0,Net Banking
+S00484,2024-12-11,P010,Webcam,Electronics,West,Fiona,4,90,30,0.17,298.8,199.2,Cash
+S00485,2024-01-23,P008,Standing Desk,Furniture,,George,7,500,200,0.15,2975.0,1785.0,UPI
+S00486,2024-01-29,P010,Webcam,Electronics,South,Alice,19,90,30,0.04,1641.6,1094.4,UPI
+S00487,2024-02-13,P005,Monitor,Electronics,East,Alice,6,350,150,0.13,1827.0,1044.0,UPI
+S00488,2024-11-03,P008,Standing Desk,Furniture,West,Charlie,20,500,200,0.25,7500.0,4500.0,UPI
+S00489,2024-08-20,P010,Webcam,Electronics,East,Charlie,6,90,30,0.16,453.6,302.4,Credit Card
+S00490,2024-12-16,P004,Desk Chair,Furniture,Central,Diana,13,250,100,0.1,2925.0,1755.0,Cash
+S00491,2024-09-14,P003,Keyboard,Electronics,Central,Alice,20,60,20,0.02,1176.0,784.0,Credit Card
+S00492,2024-09-24,P002,Mouse,Electronics,West,Alice,16,30,10,0.16,403.2,268.8,Cash
+S00493,2024-06-28,P006,Notebook,Stationery,West,Hannah,2,8,2,0.17,13.28,9.96,Credit Card
+S00494,2024-07-28,P007,Pen Pack,Stationery,Central,Bob,5,5,1,0.06,23.5,18.8,Net Banking
+S00495,2024-12-01,P004,Desk Chair,Furniture,West,Bob,1,250,100,0.18,205.0,123.0,UPI
+S00496,2024-08-04,P006,Notebook,Stationery,Central,Ethan,14,8,2,0.09,101.92,76.44,Net Banking
+S00497,2024-09-04,P010,Webcam,Electronics,Central,Diana,9,90,30,0.25,607.5,405.0,UPI
+S00498,2024-03-11,P006,Notebook,Stationery,West,Ethan,18,8,2,0.14,123.84,92.88,Credit Card
+S00499,2024-06-22,P004,Desk Chair,Furniture,West,Bob,15,250,100,0.2,3000.0,1800.0,Credit Card
+S00500,2024-08-29,P003,Keyboard,Electronics,South,,13,60,20,0.24,592.8,395.2,Cash
+S00501,2024-11-10,P002,Mouse,Electronics,West,Alice,3,30,10,0.07,83.7,55.8,Net Banking
+S00502,2024-12-02,P010,Webcam,Electronics,South,Hannah,2,90,30,0.24,136.8,91.2,Net Banking
+S00503,2024-07-03,P004,Desk Chair,Furniture,North,Diana,2,250,100,0.2,400.0,240.0,UPI
+S00504,2024-07-26,P001,Laptop,Electronics,West,George,6,1200,800,0.02,7056.0,2352.0,UPI
+S00505,2024-10-25,P009,Headphones,Electronics,Central,Bob,1,150,50,0.18,123.0,82.0,Net Banking
+S00506,2024-01-03,P006,Notebook,Stationery,Central,Hannah,9,8,2,0.06,67.68,50.76,Net Banking
+S00507,2024-09-19,P003,Keyboard,Electronics,North,Ethan,14,60,20,0.13,730.8,487.2,Net Banking
+S00508,2024-06-22,P009,Headphones,Electronics,South,George,19,150,50,0.06,2679.0,1786.0,Cash
+S00509,2024-12-12,P008,Standing Desk,Furniture,South,Ethan,19,500,200,0.22,7410.0,4446.0,UPI
+S00510,2024-05-07,P006,Notebook,Stationery,East,Alice,14,8,2,0.24,85.12,63.84,Net Banking
+S00511,2024-08-31,P002,Mouse,Electronics,South,Bob,13,30,10,0.17,323.7,215.8,Net Banking
+S00512,2024-04-30,P006,Notebook,Stationery,South,Diana,7,8,2,0.22,43.68,32.76,UPI
+S00513,2024-03-02,P005,Monitor,Electronics,North,Fiona,7,350,150,0.06,2303.0,1316.0,Credit Card
+S00514,2024-11-13,P008,Standing Desk,Furniture,East,Alice,20,500,200,0.0,10000.0,6000.0,Net Banking
+S00515,2024-03-06,P008,Standing Desk,Furniture,Central,Ethan,19,500,200,0.22,7410.0,4446.0,Credit Card
+S00516,2024-08-22,P009,Headphones,Electronics,South,Fiona,14,150,50,0.12,1848.0,1232.0,Credit Card
+S00517,2024-10-24,P009,Headphones,Electronics,West,,15,150,50,0.08,2070.0,1380.0,Credit Card
+S00518,2024-11-09,P006,Notebook,Stationery,West,Ethan,12,8,2,0.15,81.6,61.2,Net Banking
+S00519,2024-05-23,P006,Notebook,Stationery,West,Fiona,6,8,2,0.12,42.24,31.68,Cash
+S00520,2024-04-30,P003,Keyboard,Electronics,East,Diana,19,60,20,0.03,1105.8,737.2,Cash
+S00521,2024-03-31,P007,Pen Pack,Stationery,North,Charlie,7,5,1,0.04,33.6,26.88,Cash
+S00522,2024-05-08,P008,Standing Desk,Furniture,East,Fiona,5,500,200,0.25,1875.0,1125.0,Credit Card
+S00523,2024-08-18,P007,Pen Pack,Stationery,North,Ethan,4,5,1,0.17,16.6,13.28,Net Banking
+S00524,2024-03-03,P005,Monitor,Electronics,West,Ethan,12,350,150,0.09,3822.0,2184.0,Net Banking
+S00525,2024-06-30,P010,Webcam,Electronics,East,Charlie,7,90,30,0.14,541.8,361.2,Net Banking
+S00526,2024-08-25,P009,Headphones,Electronics,East,Bob,16,150,50,0.19,1944.0,1296.0,UPI
+S00527,2024-02-10,P003,Keyboard,Electronics,North,George,11,60,20,0.11,587.4,391.6,UPI
+S00528,2024-05-18,P006,Notebook,Stationery,West,Ethan,8,8,2,0.08,58.88,44.16,Cash
+S00529,2024-03-05,P006,Notebook,Stationery,North,Charlie,19,8,2,0.13,132.24,99.18,UPI
+S00530,2024-10-07,P005,Monitor,Electronics,West,Bob,3,350,150,0.05,997.5,570.0,Credit Card
+S00531,2024-02-13,P001,Laptop,Electronics,South,Bob,13,1200,800,0.13,13572.0,4524.0,Cash
+S00532,2024-01-15,P005,Monitor,Electronics,South,Charlie,8,350,150,0.06,2632.0,1504.0,Credit Card
+S00533,2024-12-23,P006,Notebook,Stationery,South,Ethan,11,8,2,0.22,68.64,51.48,UPI
+S00534,2024-06-07,P010,Webcam,Electronics,Central,George,20,90,30,0.11,1602.0,1068.0,Net Banking
+S00535,2024-03-20,P008,Standing Desk,Furniture,East,Ethan,18,500,200,0.06,8460.0,5076.0,Net Banking
+S00536,2024-09-30,P001,Laptop,Electronics,West,Charlie,1,1200,800,0.13,1044.0,348.0,Credit Card
+S00537,2024-10-07,P008,Standing Desk,Furniture,North,Ethan,16,500,200,0.07,7440.0,4464.0,Net Banking
+S00538,2024-07-12,P004,Desk Chair,Furniture,West,Diana,14,250,100,0.22,2730.0,1638.0,UPI
+S00539,2024-05-17,P005,Monitor,Electronics,Central,Ethan,3,350,150,0.11,934.5,534.0,Cash
+S00540,2024-12-24,P004,Desk Chair,Furniture,East,Hannah,3,250,100,0.05,712.5,427.5,Cash
+S00541,2024-02-22,P004,Desk Chair,Furniture,South,,11,250,100,0.0,2750.0,1650.0,Net Banking
+S00542,2024-09-09,P005,Monitor,Electronics,North,Diana,5,350,150,0.18,1435.0,820.0,UPI
+S00543,2024-06-18,P006,Notebook,Stationery,North,Fiona,14,8,2,0.08,103.04,77.28,Credit Card
+S00544,2024-07-14,P003,Keyboard,Electronics,East,Hannah,2,60,20,0.07,111.6,74.4,Credit Card
+S00545,2024-04-11,P002,Mouse,Electronics,North,Diana,8,30,10,0.1,216.0,144.0,Cash
+S00546,2024-06-14,P002,Mouse,Electronics,East,George,17,30,10,0.17,423.3,282.2,UPI
+S00547,2024-12-07,P001,Laptop,Electronics,North,Ethan,18,1200,800,0.13,18792.0,6264.0,UPI
+S00548,2024-03-02,P002,Mouse,Electronics,Central,Charlie,8,30,10,0.16,201.6,134.4,Cash
+S00549,2024-07-09,P004,Desk Chair,Furniture,South,Hannah,1,250,100,0.24,190.0,114.0,Credit Card
+S00550,2024-01-31,P004,Desk Chair,Furniture,North,Fiona,6,250,100,0.12,1320.0,792.0,Net Banking
+S00551,2024-11-26,P003,Keyboard,Electronics,Central,Diana,18,60,20,0.2,864.0,576.0,Net Banking
+S00552,2024-09-05,P008,Standing Desk,Furniture,North,Charlie,7,500,200,0.01,3465.0,2079.0,Cash
+S00553,2024-08-27,P009,Headphones,Electronics,East,Charlie,10,150,50,0.14,1290.0,860.0,Net Banking
+S00554,2024-10-04,P010,Webcam,Electronics,East,Hannah,18,90,30,0.04,1555.2,1036.8,Net Banking
+S00555,2024-07-05,P008,Standing Desk,Furniture,Central,Charlie,1,500,200,0.19,405.0,243.0,UPI
+S00556,2024-10-09,P006,Notebook,Stationery,West,George,3,8,2,0.16,20.16,15.12,UPI
+S00557,2024-01-23,P010,Webcam,Electronics,North,Bob,10,90,30,0.08,828.0,552.0,UPI
+S00558,2024-11-24,P003,Keyboard,Electronics,,Bob,2,60,20,0.05,114.0,76.0,Cash
+S00559,2024-02-06,P008,Standing Desk,Furniture,Central,Alice,17,500,200,0.16,7140.0,4284.0,Credit Card
+S00560,2024-07-03,P004,Desk Chair,Furniture,North,Hannah,16,250,100,0.23,3080.0,1848.0,Cash
+S00561,2024-02-09,P006,Notebook,Stationery,East,Alice,2,8,2,0.21,12.64,9.48,UPI
+S00562,2024-12-02,P009,Headphones,Electronics,Central,George,4,150,50,0.03,582.0,388.0,UPI
+S00563,2024-07-02,P010,Webcam,Electronics,Central,Bob,6,90,30,0.14,464.4,309.6,Cash
+S00564,2024-09-30,P007,Pen Pack,Stationery,South,George,4,5,1,0.04,19.2,15.36,Cash
+S00565,2024-06-14,P006,Notebook,Stationery,West,Fiona,11,8,2,0.14,75.68,56.76,UPI
+S00566,2024-08-17,P010,Webcam,Electronics,West,Ethan,18,90,30,0.05,1539.0,1026.0,Cash
+S00567,2024-01-04,P001,Laptop,Electronics,East,Charlie,2,1200,800,0.25,1800.0,600.0,Net Banking
+S00568,2024-10-10,P004,Desk Chair,Furniture,East,,7,250,100,0.21,1382.5,829.5,UPI
+S00569,2024-05-07,P002,Mouse,Electronics,Central,Ethan,2,30,10,0.12,52.8,35.2,UPI
+S00570,2024-09-04,P005,Monitor,Electronics,East,Diana,10,350,150,0.02,3430.0,1960.0,UPI
+S00571,2024-10-22,P008,Standing Desk,Furniture,,Ethan,19,500,200,0.2,7600.0,4560.0,Cash
+S00572,2024-04-26,P002,Mouse,Electronics,North,George,2,30,10,0.23,46.2,30.8,Credit Card
+S00573,2024-06-16,P007,Pen Pack,Stationery,South,,2,5,1,0.08,9.2,7.36,UPI
+S00574,2024-09-15,P003,Keyboard,Electronics,Central,Hannah,2,60,20,0.17,99.6,66.4,Credit Card
+S00575,2024-10-19,P004,Desk Chair,Furniture,West,Charlie,14,250,100,0.07,3255.0,1953.0,Credit Card
+S00576,2024-03-10,P009,Headphones,Electronics,South,George,13,150,50,0.07,1813.5,1209.0,Cash
+S00577,2024-05-06,P009,Headphones,Electronics,Central,Diana,7,150,50,0.12,924.0,616.0,UPI
+S00578,2024-08-04,P002,Mouse,Electronics,West,Bob,9,30,10,0.19,218.7,145.8,Net Banking
+S00579,2024-06-28,P006,Notebook,Stationery,South,Alice,7,8,2,0.08,51.52,38.64,Cash
+S00580,2024-03-20,P010,Webcam,Electronics,East,Diana,5,90,30,0.11,400.5,267.0,Credit Card
+S00581,2024-01-08,P002,Mouse,Electronics,East,Charlie,2,30,10,0.06,56.4,37.6,Net Banking
+S00582,2024-04-18,P002,Mouse,Electronics,Central,,10,30,10,0.11,267.0,178.0,UPI
+S00583,2024-07-11,P009,Headphones,Electronics,North,Charlie,17,150,50,0.19,2065.5,1377.0,Credit Card
+S00584,2024-02-04,P005,Monitor,Electronics,North,Ethan,6,350,150,0.02,2058.0,1176.0,Cash
+S00585,2024-04-28,P005,Monitor,Electronics,West,,12,350,150,0.22,3276.0,1872.0,Cash
+S00586,2024-08-22,P009,Headphones,Electronics,Central,Bob,4,150,50,0.23,462.0,308.0,Credit Card
+S00587,2024-01-10,P001,Laptop,Electronics,South,Hannah,8,1200,800,0.23,7392.0,2464.0,Net Banking
+S00588,2024-07-17,P006,Notebook,Stationery,East,Ethan,12,8,2,0.16,80.64,60.48,Credit Card
+S00589,2024-07-14,P009,Headphones,Electronics,North,George,9,150,50,0.06,1269.0,846.0,UPI
+S00590,2024-08-17,P007,Pen Pack,Stationery,East,Ethan,8,5,1,0.14,34.4,27.52,UPI
+S00591,2024-12-18,P004,Desk Chair,Furniture,East,Diana,5,250,100,0.15,1062.5,637.5,UPI
+S00592,2024-09-29,P007,Pen Pack,Stationery,Central,Charlie,5,5,1,0.16,21.0,16.8,Credit Card
+S00593,2024-07-29,P003,Keyboard,Electronics,West,Alice,11,60,20,0.21,521.4,347.6,Net Banking
+S00594,2024-11-11,P008,Standing Desk,Furniture,Central,Charlie,9,500,200,0.04,4320.0,2592.0,Net Banking
+S00595,2024-02-10,P010,Webcam,Electronics,East,Diana,19,90,30,0.15,1453.5,969.0,Cash
+S00596,2024-09-08,P003,Keyboard,Electronics,West,Fiona,17,60,20,0.21,805.8,537.2,Cash
+S00597,2024-05-18,P003,Keyboard,Electronics,North,,6,60,20,0.05,342.0,228.0,Cash
+S00598,2024-12-18,P004,Desk Chair,Furniture,West,Hannah,7,250,100,0.19,1417.5,850.5,Net Banking
+S00599,2024-11-09,P008,Standing Desk,Furniture,West,George,8,500,200,0.11,3560.0,2136.0,Credit Card
+S00600,2024-09-22,P009,Headphones,Electronics,South,Alice,4,150,50,0.11,534.0,356.0,Cash
+S00601,2024-07-22,P001,Laptop,Electronics,West,Alice,18,1200,800,0.1,19440.0,6480.0,Net Banking
+S00602,2024-08-25,P005,Monitor,Electronics,South,Alice,15,350,150,0.04,5040.0,2880.0,Cash
+S00603,2024-08-18,P002,Mouse,Electronics,East,Charlie,17,30,10,0.03,494.7,329.8,Credit Card
+S00604,2024-05-08,P003,Keyboard,Electronics,North,Diana,15,60,20,0.15,765.0,510.0,Net Banking
+S00605,2024-09-18,P003,Keyboard,Electronics,West,Fiona,4,60,20,0.02,235.2,156.8,UPI
+S00606,2024-03-24,P007,Pen Pack,Stationery,South,Fiona,18,5,1,0.1,81.0,64.8,UPI
+S00607,2024-03-01,P003,Keyboard,Electronics,South,Hannah,2,60,20,0.1,108.0,72.0,UPI
+S00608,2024-10-05,P004,Desk Chair,Furniture,West,Hannah,1,250,100,0.16,210.0,126.0,Credit Card
+S00609,2024-02-10,P010,Webcam,Electronics,West,Hannah,16,90,30,0.06,1353.6,902.4,Credit Card
+S00610,2024-03-16,P004,Desk Chair,Furniture,,Diana,18,250,100,0.07,4185.0,2511.0,Credit Card
+S00611,2024-06-01,P006,Notebook,Stationery,Central,,2,8,2,0.04,15.36,11.52,Net Banking
+S00612,2024-12-04,P002,Mouse,Electronics,Central,Charlie,2,30,10,0.03,58.2,38.8,UPI
+S00613,2024-07-07,P008,Standing Desk,Furniture,East,,19,500,200,0.09,8645.0,5187.0,Cash
+S00614,2024-06-17,P002,Mouse,Electronics,East,Hannah,14,30,10,0.21,331.8,221.2,Cash
+S00615,2024-02-14,P009,Headphones,Electronics,Central,Bob,7,150,50,0.17,871.5,581.0,Cash
+S00616,2024-06-30,P010,Webcam,Electronics,Central,Ethan,10,90,30,0.11,801.0,534.0,UPI
+S00617,2024-11-08,P010,Webcam,Electronics,South,Hannah,19,90,30,0.12,1504.8,1003.2,UPI
+S00618,2024-04-16,P005,Monitor,Electronics,North,,7,350,150,0.0,2450.0,1400.0,Cash
+S00619,2024-04-13,P007,Pen Pack,Stationery,,Diana,2,5,1,0.08,9.2,7.36,Net Banking
+S00620,2024-12-17,P005,Monitor,Electronics,North,Fiona,3,350,150,0.08,966.0,552.0,Net Banking
+S00621,2024-06-18,P006,Notebook,Stationery,South,Alice,13,8,2,0.18,85.28,63.96,Net Banking
+S00622,2024-10-01,P008,Standing Desk,Furniture,West,Hannah,16,500,200,0.2,6400.0,3840.0,Net Banking
+S00623,2024-10-11,P008,Standing Desk,Furniture,East,Ethan,14,500,200,0.23,5390.0,3234.0,Credit Card
+S00624,2024-05-23,P004,Desk Chair,Furniture,South,Fiona,19,250,100,0.17,3942.5,2365.5,Credit Card
+S00625,2024-06-06,P006,Notebook,Stationery,North,George,13,8,2,0.16,87.36,65.52,Net Banking
+S00626,2024-04-20,P001,Laptop,Electronics,East,Diana,9,1200,800,0.1,9720.0,3240.0,Net Banking
+S00627,2024-08-15,P003,Keyboard,Electronics,North,,4,60,20,0.09,218.4,145.6,Credit Card
+S00628,2024-06-07,P008,Standing Desk,Furniture,Central,Hannah,17,500,200,0.04,8160.0,4896.0,Net Banking
+S00629,2024-08-23,P003,Keyboard,Electronics,North,Charlie,4,60,20,0.21,189.6,126.4,Cash
+S00630,2024-02-22,P009,Headphones,Electronics,North,Bob,4,150,50,0.0,600.0,400.0,Net Banking
+S00631,2024-05-26,P001,Laptop,Electronics,South,Diana,19,1200,800,0.19,18468.0,6156.0,Net Banking
+S00632,2024-02-28,P009,Headphones,Electronics,East,Ethan,11,150,50,0.19,1336.5,891.0,Credit Card
+S00633,2024-03-13,P010,Webcam,Electronics,East,Fiona,18,90,30,0.13,1409.4,939.6,Net Banking
+S00634,2024-03-07,P010,Webcam,Electronics,North,Fiona,8,90,30,0.04,691.2,460.8,Credit Card
+S00635,2024-10-30,P008,Standing Desk,Furniture,Central,George,2,500,200,0.03,970.0,582.0,Cash
+S00636,2024-10-17,P010,Webcam,Electronics,West,Bob,12,90,30,0.08,993.6,662.4,UPI
+S00637,2024-03-14,P002,Mouse,Electronics,South,Hannah,15,30,10,0.02,441.0,294.0,Net Banking
+S00638,2024-08-20,P006,Notebook,Stationery,East,Fiona,13,8,2,0.05,98.8,74.1,Cash
+S00639,2024-06-27,P001,Laptop,Electronics,East,Hannah,3,1200,800,0.12,3168.0,1056.0,UPI
+S00640,2024-06-03,P009,Headphones,Electronics,North,Bob,4,150,50,0.1,540.0,360.0,Cash
+S00641,2024-02-03,P007,Pen Pack,Stationery,West,Charlie,19,5,1,0.1,85.5,68.4,Net Banking
+S00642,2024-03-29,P004,Desk Chair,Furniture,South,Fiona,19,250,100,0.11,4227.5,2536.5,Credit Card
+S00643,2024-03-31,P010,Webcam,Electronics,West,Fiona,16,90,30,0.03,1396.8,931.2,Net Banking
+S00644,2024-02-16,P007,Pen Pack,Stationery,North,George,3,5,1,0.15,12.75,10.2,UPI
+S00645,2024-08-19,P003,Keyboard,Electronics,South,Alice,19,60,20,0.23,877.8,585.2,Net Banking
+S00646,2024-08-10,P007,Pen Pack,Stationery,East,Fiona,20,5,1,0.14,86.0,68.8,Net Banking
+S00647,2024-02-01,P002,Mouse,Electronics,East,George,19,30,10,0.0,570.0,380.0,Net Banking
+S00648,2024-01-16,P009,Headphones,Electronics,East,Fiona,2,150,50,0.0,300.0,200.0,UPI
+S00649,2024-10-06,P007,Pen Pack,Stationery,West,George,19,5,1,0.1,85.5,68.4,UPI
+S00650,2024-05-27,P003,Keyboard,Electronics,South,Fiona,16,60,20,0.03,931.2,620.8,UPI
+S00651,2024-12-02,P003,Keyboard,Electronics,West,,1,60,20,0.02,58.8,39.2,Cash
+S00652,2024-08-05,P003,Keyboard,Electronics,Central,Hannah,3,60,20,0.03,174.6,116.4,UPI
+S00653,2024-08-05,P008,Standing Desk,Furniture,South,George,17,500,200,0.11,7565.0,4539.0,Credit Card
+S00654,2024-10-22,P010,Webcam,Electronics,Central,Ethan,16,90,30,0.21,1137.6,758.4,Net Banking
+S00655,2024-03-13,P001,Laptop,Electronics,North,Bob,2,1200,800,0.14,2064.0,688.0,Net Banking
+S00656,2024-12-16,P008,Standing Desk,Furniture,North,Bob,17,500,200,0.02,8330.0,4998.0,Net Banking
+S00657,2024-08-28,P010,Webcam,Electronics,Central,Alice,2,90,30,0.23,138.6,92.4,Net Banking
+S00658,2024-06-04,P007,Pen Pack,Stationery,Central,Ethan,12,5,1,0.24,45.6,36.48,Net Banking
+S00659,2024-01-14,P001,Laptop,Electronics,Central,Ethan,16,1200,800,0.14,16512.0,5504.0,Net Banking
+S00660,2024-05-23,P008,Standing Desk,Furniture,Central,Ethan,3,500,200,0.03,1455.0,873.0,Net Banking
+S00661,2024-03-30,P005,Monitor,Electronics,East,Charlie,1,350,150,0.19,283.5,162.0,Net Banking
+S00662,2024-03-15,P004,Desk Chair,Furniture,North,Alice,16,250,100,0.05,3800.0,2280.0,UPI
+S00663,2024-04-17,P008,Standing Desk,Furniture,South,Hannah,14,500,200,0.19,5670.0,3402.0,Net Banking
+S00664,2024-06-03,P001,Laptop,Electronics,West,Charlie,9,1200,800,0.19,8748.0,2916.0,Cash
+S00665,2024-08-10,P009,Headphones,Electronics,Central,Hannah,8,150,50,0.09,1092.0,728.0,Credit Card
+S00666,2024-11-22,P005,Monitor,Electronics,Central,Alice,15,350,150,0.1,4725.0,2700.0,Net Banking
+S00667,2024-05-10,P007,Pen Pack,Stationery,North,Fiona,20,5,1,0.23,77.0,61.6,Cash
+S00668,2024-06-09,P008,Standing Desk,Furniture,South,Diana,8,500,200,0.18,3280.0,1968.0,Credit Card
+S00669,2024-04-22,P001,Laptop,Electronics,East,Bob,3,1200,800,0.0,3600.0,1200.0,Net Banking
+S00670,2024-11-02,P005,Monitor,Electronics,South,Alice,7,350,150,0.01,2425.5,1386.0,Credit Card
+S00671,2024-05-09,P002,Mouse,Electronics,South,Charlie,3,30,10,0.21,71.1,47.4,Net Banking
+S00672,2024-05-11,P008,Standing Desk,Furniture,East,Ethan,3,500,200,0.16,1260.0,756.0,UPI
+S00673,2024-05-15,P002,Mouse,Electronics,East,Fiona,9,30,10,0.19,218.7,145.8,UPI
+S00674,2024-02-25,P008,Standing Desk,Furniture,West,George,3,500,200,0.12,1320.0,792.0,UPI
+S00675,2024-01-18,P009,Headphones,Electronics,North,Hannah,14,150,50,0.05,1995.0,1330.0,Credit Card
+S00676,2024-11-30,P002,Mouse,Electronics,South,Alice,19,30,10,0.18,467.4,311.6,Credit Card
+S00677,2024-12-28,P001,Laptop,Electronics,Central,George,13,1200,800,0.07,14508.0,4836.0,Cash
+S00678,2024-07-15,P008,Standing Desk,Furniture,North,Bob,14,500,200,0.1,6300.0,3780.0,Cash
+S00679,2024-01-29,P002,Mouse,Electronics,West,Fiona,19,30,10,0.13,495.9,330.6,Credit Card
+S00680,2024-11-27,P006,Notebook,Stationery,East,Hannah,18,8,2,0.21,113.76,85.32,UPI
+S00681,2024-02-24,P003,Keyboard,Electronics,West,Diana,18,60,20,0.01,1069.2,712.8,Net Banking
+S00682,2024-01-13,P008,Standing Desk,Furniture,South,Diana,3,500,200,0.22,1170.0,702.0,UPI
+S00683,2024-01-09,P008,Standing Desk,Furniture,West,Ethan,13,500,200,0.02,6370.0,3822.0,Credit Card
+S00684,2024-08-22,P006,Notebook,Stationery,Central,George,2,8,2,0.08,14.72,11.04,UPI
+S00685,2024-08-29,P010,Webcam,Electronics,North,,8,90,30,0.23,554.4,369.6,Credit Card
+S00686,2024-08-21,P004,Desk Chair,Furniture,North,Ethan,5,250,100,0.0,1250.0,750.0,UPI
+S00687,2024-04-22,P010,Webcam,Electronics,Central,Hannah,3,90,30,0.2,216.0,144.0,Credit Card
+S00688,2024-10-06,P004,Desk Chair,Furniture,Central,George,14,250,100,0.08,3220.0,1932.0,UPI
+S00689,2024-03-13,P006,Notebook,Stationery,East,Fiona,7,8,2,0.19,45.36,34.02,Cash
+S00690,2024-07-11,P003,Keyboard,Electronics,Central,Alice,12,60,20,0.14,619.2,412.8,UPI
+S00691,2024-05-25,P001,Laptop,Electronics,Central,,16,1200,800,0.02,18816.0,6272.0,Cash
+S00692,2024-11-08,P008,Standing Desk,Furniture,South,Hannah,5,500,200,0.05,2375.0,1425.0,Credit Card
+S00693,2024-06-27,P010,Webcam,Electronics,East,Bob,6,90,30,0.18,442.8,295.2,Cash
+S00694,2024-09-16,P001,Laptop,Electronics,Central,Bob,18,1200,800,0.06,20304.0,6768.0,UPI
+S00695,2024-09-11,P008,Standing Desk,Furniture,West,Charlie,7,500,200,0.07,3255.0,1953.0,UPI
+S00696,2024-11-11,P003,Keyboard,Electronics,East,Diana,2,60,20,0.01,118.8,79.2,Cash
+S00697,2024-09-05,P001,Laptop,Electronics,North,Charlie,4,1200,800,0.19,3888.0,1296.0,Credit Card
+S00698,2024-04-27,P002,Mouse,Electronics,East,Fiona,8,30,10,0.18,196.8,131.2,Credit Card
+S00699,2024-02-07,P006,Notebook,Stationery,South,Diana,8,8,2,0.02,62.72,47.04,Cash
+S00700,2024-04-01,P010,Webcam,Electronics,West,Diana,16,90,30,0.01,1425.6,950.4,Cash
+S00701,2024-06-20,P006,Notebook,Stationery,South,Fiona,5,8,2,0.11,35.6,26.7,UPI
+S00702,2024-06-24,P001,Laptop,Electronics,South,Hannah,19,1200,800,0.01,22572.0,7524.0,UPI
+S00703,2024-04-27,P005,Monitor,Electronics,Central,Charlie,20,350,150,0.04,6720.0,3840.0,Credit Card
+S00704,2024-01-08,P007,Pen Pack,Stationery,East,Hannah,17,5,1,0.12,74.8,59.84,Cash
+S00705,2024-08-01,P004,Desk Chair,Furniture,North,Charlie,8,250,100,0.08,1840.0,1104.0,Credit Card
+S00706,2024-12-22,P001,Laptop,Electronics,West,George,16,1200,800,0.18,15744.0,5248.0,Credit Card
+S00707,2024-04-21,P008,Standing Desk,Furniture,West,Alice,16,500,200,0.06,7520.0,4512.0,UPI
+S00708,2024-03-23,P006,Notebook,Stationery,East,Alice,10,8,2,0.06,75.2,56.4,Cash
+S00709,2024-04-04,P010,Webcam,Electronics,West,Charlie,19,90,30,0.01,1692.9,1128.6,Net Banking
+S00710,2024-08-06,P008,Standing Desk,Furniture,East,Fiona,1,500,200,0.22,390.0,234.0,Net Banking
+S00711,2024-01-29,P010,Webcam,Electronics,East,Bob,18,90,30,0.14,1393.2,928.8,Net Banking
+S00712,2024-11-27,P001,Laptop,Electronics,South,Alice,4,1200,800,0.1,4320.0,1440.0,Credit Card
+S00713,2024-12-25,P009,Headphones,Electronics,Central,Bob,7,150,50,0.03,1018.5,679.0,UPI
+S00714,2024-07-09,P004,Desk Chair,Furniture,North,George,11,250,100,0.09,2502.5,1501.5,Net Banking
+S00715,2024-05-29,P008,Standing Desk,Furniture,Central,Hannah,16,500,200,0.13,6960.0,4176.0,Cash
+S00716,2024-02-14,P010,Webcam,Electronics,West,Bob,12,90,30,0.2,864.0,576.0,Credit Card
+S00717,2024-12-22,P007,Pen Pack,Stationery,North,Bob,6,5,1,0.07,27.9,22.32,UPI
+S00718,2024-03-08,P008,Standing Desk,Furniture,Central,Alice,5,500,200,0.22,1950.0,1170.0,Cash
+S00719,2024-04-28,P006,Notebook,Stationery,North,Ethan,14,8,2,0.11,99.68,74.76,Net Banking
+S00720,2024-10-07,P007,Pen Pack,Stationery,Central,Fiona,19,5,1,0.09,86.45,69.16,Cash
+S00721,2024-04-26,P008,Standing Desk,Furniture,East,Ethan,10,500,200,0.14,4300.0,2580.0,Cash
+S00722,2024-03-26,P006,Notebook,Stationery,West,,10,8,2,0.19,64.8,48.6,UPI
+S00723,2024-01-22,P009,Headphones,Electronics,North,Charlie,10,150,50,0.05,1425.0,950.0,Net Banking
+S00724,2024-12-06,P010,Webcam,Electronics,North,Diana,5,90,30,0.11,400.5,267.0,Net Banking
+S00725,2024-01-13,P006,Notebook,Stationery,North,Charlie,5,8,2,0.09,36.4,27.3,Cash
+S00726,2024-10-06,P008,Standing Desk,Furniture,,Charlie,5,500,200,0.24,1900.0,1140.0,Net Banking
+S00727,2024-06-22,P005,Monitor,Electronics,West,Charlie,16,350,150,0.22,4368.0,2496.0,Credit Card
+S00728,2024-11-12,P008,Standing Desk,Furniture,,Ethan,2,500,200,0.03,970.0,582.0,UPI
+S00729,2024-05-22,P008,Standing Desk,Furniture,South,Diana,12,500,200,0.02,5880.0,3528.0,UPI
+S00730,2024-04-09,P001,Laptop,Electronics,West,Bob,3,1200,800,0.13,3132.0,1044.0,Cash
+S00731,2024-07-08,P006,Notebook,Stationery,West,Fiona,20,8,2,0.15,136.0,102.0,Cash
+S00732,2024-04-20,P006,Notebook,Stationery,North,Hannah,1,8,2,0.07,7.44,5.58,Cash
+S00733,2024-03-12,P007,Pen Pack,Stationery,West,George,15,5,1,0.07,69.75,55.8,Credit Card
+S00734,2024-07-11,P003,Keyboard,Electronics,Central,Fiona,7,60,20,0.08,386.4,257.6,Credit Card
+S00735,2024-03-11,P001,Laptop,Electronics,Central,Charlie,14,1200,800,0.16,14112.0,4704.0,UPI
+S00736,2024-09-09,P003,Keyboard,Electronics,East,Ethan,13,60,20,0.07,725.4,483.6,Cash
+S00737,2024-03-04,P004,Desk Chair,Furniture,West,Ethan,1,250,100,0.2,200.0,120.0,Net Banking
+S00738,2024-05-21,P007,Pen Pack,Stationery,,Diana,6,5,1,0.12,26.4,21.12,Cash
+S00739,2024-12-21,P002,Mouse,Electronics,West,George,20,30,10,0.19,486.0,324.0,Credit Card
+S00740,2024-01-30,P006,Notebook,Stationery,Central,,17,8,2,0.18,111.52,83.64,UPI
+S00741,2024-08-02,P006,Notebook,Stationery,East,Charlie,15,8,2,0.22,93.6,70.2,Net Banking
+S00742,2024-02-18,P001,Laptop,Electronics,South,Bob,10,1200,800,0.07,11160.0,3720.0,UPI
+S00743,2024-02-19,P009,Headphones,Electronics,East,Ethan,11,150,50,0.22,1287.0,858.0,Net Banking
+S00744,2024-02-22,P003,Keyboard,Electronics,South,Hannah,1,60,20,0.03,58.2,38.8,UPI
+S00745,2024-02-29,P003,Keyboard,Electronics,North,Bob,17,60,20,0.06,958.8,639.2,UPI
+S00746,2024-09-24,P001,Laptop,Electronics,Central,Charlie,16,1200,800,0.09,17472.0,5824.0,Net Banking
+S00747,2024-12-18,P003,Keyboard,Electronics,South,Diana,10,60,20,0.01,594.0,396.0,UPI
+S00748,2024-02-09,P005,Monitor,Electronics,North,George,5,350,150,0.05,1662.5,950.0,Credit Card
+S00749,2024-01-23,P008,Standing Desk,Furniture,East,Alice,14,500,200,0.01,6930.0,4158.0,Credit Card
+S00750,2024-04-04,P005,Monitor,Electronics,South,Diana,1,350,150,0.19,283.5,162.0,Net Banking
+S00751,2024-06-29,P001,Laptop,Electronics,East,Ethan,3,1200,800,0.04,3456.0,1152.0,UPI
+S00752,2024-09-27,P009,Headphones,Electronics,North,Bob,20,150,50,0.06,2820.0,1880.0,UPI
+S00753,2024-04-19,P004,Desk Chair,Furniture,North,Alice,10,250,100,0.04,2400.0,1440.0,Cash
+S00754,2024-07-13,P006,Notebook,Stationery,East,Bob,19,8,2,0.05,144.4,108.3,Cash
+S00755,2024-09-23,P004,Desk Chair,Furniture,North,Fiona,17,250,100,0.06,3995.0,2397.0,UPI
+S00756,2024-02-29,P008,Standing Desk,Furniture,West,Alice,12,500,200,0.18,4920.0,2952.0,Cash
+S00757,2024-05-28,P005,Monitor,Electronics,West,Hannah,15,350,150,0.15,4462.5,2550.0,Cash
+S00758,2024-12-10,P004,Desk Chair,Furniture,West,Fiona,3,250,100,0.22,585.0,351.0,Credit Card
+S00759,2024-12-21,P007,Pen Pack,Stationery,West,Bob,15,5,1,0.13,65.25,52.2,Credit Card
+S00760,2024-03-03,P003,Keyboard,Electronics,West,Diana,3,60,20,0.09,163.8,109.2,UPI
+S00761,2024-07-01,P007,Pen Pack,Stationery,West,Ethan,16,5,1,0.07,74.4,59.52,Cash
+S00762,2024-03-03,P010,Webcam,Electronics,North,Charlie,13,90,30,0.25,877.5,585.0,Net Banking
+S00763,2024-02-04,P008,Standing Desk,Furniture,North,Alice,16,500,200,0.06,7520.0,4512.0,Cash
+S00764,2024-02-19,P001,Laptop,Electronics,Central,Charlie,6,1200,800,0.1,6480.0,2160.0,Credit Card
+S00765,2024-10-04,P009,Headphones,Electronics,East,Hannah,16,150,50,0.2,1920.0,1280.0,Net Banking
+S00766,2024-07-15,P009,Headphones,Electronics,North,George,18,150,50,0.0,2700.0,1800.0,Cash
+S00767,2024-12-27,P006,Notebook,Stationery,East,,13,8,2,0.11,92.56,69.42,UPI
+S00768,2024-12-11,P008,Standing Desk,Furniture,Central,Hannah,14,500,200,0.03,6790.0,4074.0,Cash
+S00769,2024-05-14,P009,Headphones,Electronics,West,Charlie,18,150,50,0.14,2322.0,1548.0,Cash
+S00770,2024-10-29,P010,Webcam,Electronics,North,Ethan,13,90,30,0.15,994.5,663.0,Credit Card
+S00771,2024-07-13,P003,Keyboard,Electronics,East,Alice,12,60,20,0.09,655.2,436.8,Credit Card
+S00772,2024-04-30,P007,Pen Pack,Stationery,South,Alice,12,5,1,0.25,45.0,36.0,Net Banking
+S00773,2024-01-11,P010,Webcam,Electronics,South,Ethan,3,90,30,0.23,207.9,138.6,Net Banking
+S00774,2024-10-28,P001,Laptop,Electronics,West,George,15,1200,800,0.16,15120.0,5040.0,Credit Card
+S00775,2024-12-19,P006,Notebook,Stationery,North,Bob,13,8,2,0.14,89.44,67.08,UPI
+S00776,2024-07-05,P006,Notebook,Stationery,East,Fiona,16,8,2,0.13,111.36,83.52,Cash
+S00777,2024-04-19,P004,Desk Chair,Furniture,Central,Bob,16,250,100,0.16,3360.0,2016.0,Net Banking
+S00778,2024-10-23,P005,Monitor,Electronics,North,Diana,2,350,150,0.07,651.0,372.0,Credit Card
+S00779,2024-02-09,P010,Webcam,Electronics,East,Hannah,11,90,30,0.07,920.7,613.8,Net Banking
+S00780,2024-11-15,P009,Headphones,Electronics,East,Diana,10,150,50,0.11,1335.0,890.0,Cash
+S00781,2024-12-04,P009,Headphones,Electronics,South,Charlie,6,150,50,0.22,702.0,468.0,Cash
+S00782,2024-09-24,P005,Monitor,Electronics,North,George,18,350,150,0.2,5040.0,2880.0,UPI
+S00783,2024-06-12,P006,Notebook,Stationery,West,Ethan,15,8,2,0.04,115.2,86.4,Credit Card
+S00784,2024-04-30,P004,Desk Chair,Furniture,Central,Charlie,14,250,100,0.07,3255.0,1953.0,Cash
+S00785,2024-08-25,P004,Desk Chair,Furniture,East,,4,250,100,0.04,960.0,576.0,Cash
+S00786,2024-01-15,P009,Headphones,Electronics,South,Diana,14,150,50,0.11,1869.0,1246.0,Net Banking
+S00787,2024-02-12,P005,Monitor,Electronics,North,Hannah,18,350,150,0.04,6048.0,3456.0,Net Banking
+S00788,2024-07-22,P010,Webcam,Electronics,North,George,10,90,30,0.22,702.0,468.0,UPI
+S00789,2024-09-25,P004,Desk Chair,Furniture,Central,Bob,4,250,100,0.14,860.0,516.0,Net Banking
+S00790,2024-07-18,P008,Standing Desk,Furniture,Central,Fiona,3,500,200,0.06,1410.0,846.0,UPI
+S00791,2024-10-28,P007,Pen Pack,Stationery,East,Ethan,7,5,1,0.04,33.6,26.88,Credit Card
+S00792,2024-12-15,P008,Standing Desk,Furniture,West,Fiona,18,500,200,0.09,8190.0,4914.0,UPI
+S00793,2024-11-06,P005,Monitor,Electronics,,Ethan,5,350,150,0.09,1592.5,910.0,Credit Card
+S00794,2024-09-30,P001,Laptop,Electronics,North,Fiona,8,1200,800,0.06,9024.0,3008.0,UPI
+S00795,2024-06-01,P008,Standing Desk,Furniture,South,Ethan,13,500,200,0.0,6500.0,3900.0,UPI
+S00796,2024-02-11,P003,Keyboard,Electronics,East,George,15,60,20,0.16,756.0,504.0,Cash
+S00797,2024-03-23,P008,Standing Desk,Furniture,North,George,14,500,200,0.23,5390.0,3234.0,Net Banking
+S00798,2024-01-27,P009,Headphones,Electronics,North,Fiona,3,150,50,0.09,409.5,273.0,UPI
+S00799,2024-02-26,P008,Standing Desk,Furniture,North,Ethan,5,500,200,0.0,2500.0,1500.0,UPI
+S00800,2024-06-12,P004,Desk Chair,Furniture,West,Charlie,17,250,100,0.18,3485.0,2091.0,Cash
+S00801,2024-02-13,P008,Standing Desk,Furniture,South,Fiona,5,500,200,0.07,2325.0,1395.0,Cash
+S00802,2024-01-12,P006,Notebook,Stationery,,Diana,6,8,2,0.1,43.2,32.4,UPI
+S00803,2024-11-12,P002,Mouse,Electronics,,Charlie,15,30,10,0.05,427.5,285.0,Cash
+S00804,2024-01-08,P010,Webcam,Electronics,North,Charlie,9,90,30,0.04,777.6,518.4,Cash
+S00805,2024-05-27,P008,Standing Desk,Furniture,East,Diana,16,500,200,0.03,7760.0,4656.0,Cash
+S00806,2024-12-12,P007,Pen Pack,Stationery,East,Diana,5,5,1,0.11,22.25,17.8,UPI
+S00807,2024-11-12,P007,Pen Pack,Stationery,South,Ethan,6,5,1,0.1,27.0,21.6,Cash
+S00808,2024-03-09,P004,Desk Chair,Furniture,,Bob,12,250,100,0.15,2550.0,1530.0,Net Banking
+S00809,2024-01-31,P007,Pen Pack,Stationery,Central,Ethan,7,5,1,0.18,28.7,22.96,Credit Card
+S00810,2024-09-15,P006,Notebook,Stationery,,Alice,8,8,2,0.12,56.32,42.24,Cash
+S00811,2024-03-27,P005,Monitor,Electronics,East,Alice,13,350,150,0.17,3776.5,2158.0,Cash
+S00812,2024-06-09,P006,Notebook,Stationery,North,George,15,8,2,0.03,116.4,87.3,Credit Card
+S00813,2024-05-14,P003,Keyboard,Electronics,East,Fiona,16,60,20,0.22,748.8,499.2,Net Banking
+S00814,2024-10-11,P009,Headphones,Electronics,South,Hannah,11,150,50,0.11,1468.5,979.0,Cash
+S00815,2024-12-27,P001,Laptop,Electronics,South,Alice,7,1200,800,0.04,8064.0,2688.0,Cash
+S00816,2024-09-05,P007,Pen Pack,Stationery,Central,Alice,4,5,1,0.25,15.0,12.0,Cash
+S00817,2024-05-25,P008,Standing Desk,Furniture,South,Bob,4,500,200,0.21,1580.0,948.0,UPI
+S00818,2024-09-26,P003,Keyboard,Electronics,North,Diana,17,60,20,0.21,805.8,537.2,UPI
+S00819,2024-05-25,P007,Pen Pack,Stationery,North,Bob,3,5,1,0.06,14.1,11.28,Credit Card
+S00820,2024-08-23,P007,Pen Pack,Stationery,North,Fiona,12,5,1,0.15,51.0,40.8,Cash
+S00821,2024-08-19,P008,Standing Desk,Furniture,Central,,9,500,200,0.15,3825.0,2295.0,Net Banking
+S00822,2024-01-29,P010,Webcam,Electronics,East,,5,90,30,0.05,427.5,285.0,Credit Card
+S00823,2024-02-15,P009,Headphones,Electronics,West,Charlie,20,150,50,0.1,2700.0,1800.0,Credit Card
+S00824,2024-08-09,P004,Desk Chair,Furniture,West,Charlie,6,250,100,0.1,1350.0,810.0,Net Banking
+S00825,2024-08-16,P010,Webcam,Electronics,West,Fiona,5,90,30,0.09,409.5,273.0,Cash
+S00826,2024-04-05,P008,Standing Desk,Furniture,Central,George,9,500,200,0.14,3870.0,2322.0,Cash
+S00827,2024-09-10,P007,Pen Pack,Stationery,South,Hannah,3,5,1,0.01,14.85,11.88,Credit Card
+S00828,2024-12-16,P005,Monitor,Electronics,South,Hannah,15,350,150,0.11,4672.5,2670.0,Net Banking
+S00829,2024-02-25,P004,Desk Chair,Furniture,Central,Bob,17,250,100,0.11,3782.5,2269.5,Cash
+S00830,2024-02-11,P007,Pen Pack,Stationery,Central,Ethan,4,5,1,0.12,17.6,14.08,Credit Card
+S00831,2024-08-01,P002,Mouse,Electronics,,George,15,30,10,0.04,432.0,288.0,Net Banking
+S00832,2024-06-23,P006,Notebook,Stationery,East,Hannah,19,8,2,0.18,124.64,93.48,UPI
+S00833,2024-08-10,P004,Desk Chair,Furniture,North,Ethan,6,250,100,0.02,1470.0,882.0,Credit Card
+S00834,2024-12-02,P001,Laptop,Electronics,West,Hannah,13,1200,800,0.03,15132.0,5044.0,Cash
+S00835,2024-03-05,P005,Monitor,Electronics,North,George,20,350,150,0.2,5600.0,3200.0,UPI
+S00836,2024-04-17,P001,Laptop,Electronics,North,,7,1200,800,0.03,8148.0,2716.0,Cash
+S00837,2024-03-16,P003,Keyboard,Electronics,West,Diana,8,60,20,0.11,427.2,284.8,Cash
+S00838,2024-01-11,P007,Pen Pack,Stationery,West,Hannah,1,5,1,0.03,4.85,3.88,Cash
+S00839,2024-02-22,P010,Webcam,Electronics,North,George,8,90,30,0.05,684.0,456.0,Cash
+S00840,2024-07-23,P007,Pen Pack,Stationery,,Ethan,16,5,1,0.18,65.6,52.48,Cash
+S00841,2024-09-27,P009,Headphones,Electronics,North,Hannah,19,150,50,0.18,2337.0,1558.0,Credit Card
+S00842,2024-09-10,P007,Pen Pack,Stationery,North,George,19,5,1,0.08,87.4,69.92,Net Banking
+S00843,2024-04-28,P008,Standing Desk,Furniture,West,Diana,14,500,200,0.01,6930.0,4158.0,UPI
+S00844,2024-12-30,P010,Webcam,Electronics,East,Hannah,11,90,30,0.23,762.3,508.2,Cash
+S00845,2024-12-19,P007,Pen Pack,Stationery,East,Charlie,12,5,1,0.2,48.0,38.4,Credit Card
+S00846,2024-09-09,P008,Standing Desk,Furniture,West,Hannah,5,500,200,0.04,2400.0,1440.0,Net Banking
+S00847,2024-12-12,P004,Desk Chair,Furniture,East,Fiona,7,250,100,0.14,1505.0,903.0,UPI
+S00848,2024-03-02,P003,Keyboard,Electronics,South,George,17,60,20,0.01,1009.8,673.2,UPI
+S00849,2024-05-16,P008,Standing Desk,Furniture,Central,Alice,9,500,200,0.25,3375.0,2025.0,UPI
+S00850,2024-02-24,P009,Headphones,Electronics,North,Hannah,20,150,50,0.17,2490.0,1660.0,Credit Card
+S00851,2024-03-21,P009,Headphones,Electronics,East,Bob,2,150,50,0.13,261.0,174.0,Net Banking
+S00852,2024-03-11,P008,Standing Desk,Furniture,East,Charlie,17,500,200,0.12,7480.0,4488.0,Credit Card
+S00853,2024-06-23,P004,Desk Chair,Furniture,West,Alice,15,250,100,0.24,2850.0,1710.0,Net Banking
+S00854,2024-03-18,P009,Headphones,Electronics,South,George,6,150,50,0.02,882.0,588.0,Cash
+S00855,2024-12-15,P004,Desk Chair,Furniture,Central,George,5,250,100,0.2,1000.0,600.0,Net Banking
+S00856,2024-02-13,P001,Laptop,Electronics,North,,15,1200,800,0.04,17280.0,5760.0,Net Banking
+S00857,2024-12-04,P006,Notebook,Stationery,North,Alice,13,8,2,0.25,78.0,58.5,UPI
+S00858,2024-06-04,P010,Webcam,Electronics,Central,Ethan,2,90,30,0.24,136.8,91.2,Net Banking
+S00859,2024-11-25,P006,Notebook,Stationery,West,Charlie,1,8,2,0.21,6.32,4.74,UPI
+S00860,2024-04-11,P009,Headphones,Electronics,West,Fiona,20,150,50,0.2,2400.0,1600.0,Net Banking
+S00861,2024-05-25,P002,Mouse,Electronics,Central,Charlie,2,30,10,0.13,52.2,34.8,UPI
+S00862,2024-10-03,P002,Mouse,Electronics,,Charlie,17,30,10,0.14,438.6,292.4,Net Banking
+S00863,2024-05-12,P004,Desk Chair,Furniture,East,Bob,10,250,100,0.18,2050.0,1230.0,Net Banking
+S00864,2024-08-20,P002,Mouse,Electronics,North,Hannah,2,30,10,0.19,48.6,32.4,Net Banking
+S00865,2024-12-07,P004,Desk Chair,Furniture,East,Diana,19,250,100,0.14,4085.0,2451.0,UPI
+S00866,2024-08-20,P007,Pen Pack,Stationery,East,Diana,17,5,1,0.18,69.7,55.76,Credit Card
+S00867,2024-08-31,P003,Keyboard,Electronics,South,Alice,14,60,20,0.21,663.6,442.4,UPI
+S00868,2024-09-12,P008,Standing Desk,Furniture,Central,George,3,500,200,0.09,1365.0,819.0,Cash
+S00869,2024-09-05,P008,Standing Desk,Furniture,South,Charlie,16,500,200,0.18,6560.0,3936.0,Cash
+S00870,2024-03-21,P003,Keyboard,Electronics,North,Diana,17,60,20,0.22,795.6,530.4,Net Banking
+S00871,2024-09-24,P002,Mouse,Electronics,North,Fiona,20,30,10,0.21,474.0,316.0,UPI
+S00872,2024-03-13,P002,Mouse,Electronics,South,Ethan,12,30,10,0.08,331.2,220.8,Cash
+S00873,2024-10-07,P001,Laptop,Electronics,,Hannah,10,1200,800,0.22,9360.0,3120.0,Net Banking
+S00874,2024-08-31,P002,Mouse,Electronics,West,Hannah,2,30,10,0.1,54.0,36.0,UPI
+S00875,2024-02-15,P003,Keyboard,Electronics,East,Hannah,17,60,20,0.16,856.8,571.2,Cash
+S00876,2024-05-22,P007,Pen Pack,Stationery,West,Alice,8,5,1,0.23,30.8,24.64,Credit Card
+S00877,2024-11-25,P003,Keyboard,Electronics,North,Ethan,1,60,20,0.14,51.6,34.4,Credit Card
+S00878,2024-01-10,P004,Desk Chair,Furniture,Central,Diana,20,250,100,0.14,4300.0,2580.0,Credit Card
+S00879,2024-08-15,P009,Headphones,Electronics,Central,Diana,6,150,50,0.24,684.0,456.0,Credit Card
+S00880,2024-06-23,P009,Headphones,Electronics,North,Hannah,20,150,50,0.08,2760.0,1840.0,Cash
+S00881,2024-02-20,P003,Keyboard,Electronics,North,George,14,60,20,0.01,831.6,554.4,UPI
+S00882,2024-12-13,P005,Monitor,Electronics,West,Charlie,5,350,150,0.05,1662.5,950.0,UPI
+S00883,2024-06-12,P001,Laptop,Electronics,North,Alice,20,1200,800,0.24,18240.0,6080.0,UPI
+S00884,2024-11-01,P007,Pen Pack,Stationery,South,Bob,11,5,1,0.06,51.7,41.36,UPI
+S00885,2024-08-25,P008,Standing Desk,Furniture,East,Bob,17,500,200,0.19,6885.0,4131.0,Cash
+S00886,2024-12-11,P002,Mouse,Electronics,Central,Alice,16,30,10,0.01,475.2,316.8,Credit Card
+S00887,2024-04-14,P004,Desk Chair,Furniture,Central,George,18,250,100,0.16,3780.0,2268.0,UPI
+S00888,2024-08-19,P006,Notebook,Stationery,Central,George,18,8,2,0.25,108.0,81.0,Credit Card
+S00889,2024-09-03,P001,Laptop,Electronics,,Charlie,15,1200,800,0.24,13680.0,4560.0,Net Banking
+S00890,2024-10-26,P010,Webcam,Electronics,South,Fiona,9,90,30,0.21,639.9,426.6,Net Banking
+S00891,2024-03-12,P001,Laptop,Electronics,North,Ethan,6,1200,800,0.18,5904.0,1968.0,Net Banking
+S00892,2024-11-21,P007,Pen Pack,Stationery,East,Fiona,7,5,1,0.15,29.75,23.8,Net Banking
+S00893,2024-06-17,P008,Standing Desk,Furniture,Central,Fiona,9,500,200,0.06,4230.0,2538.0,Credit Card
+S00894,2024-03-29,P003,Keyboard,Electronics,,,1,60,20,0.15,51.0,34.0,Cash
+S00895,2024-12-10,P009,Headphones,Electronics,West,Bob,16,150,50,0.19,1944.0,1296.0,Credit Card
+S00896,2024-03-04,P006,Notebook,Stationery,North,Charlie,13,8,2,0.21,82.16,61.62,Cash
+S00897,2024-04-08,P006,Notebook,Stationery,East,Alice,7,8,2,0.11,49.84,37.38,Credit Card
+S00898,2024-05-23,P010,Webcam,Electronics,North,Hannah,10,90,30,0.2,720.0,480.0,Cash
+S00899,2024-10-18,P010,Webcam,Electronics,East,George,7,90,30,0.0,630.0,420.0,Cash
+S00900,2024-02-03,P003,Keyboard,Electronics,South,Charlie,18,60,20,0.05,1026.0,684.0,UPI
+S00901,2024-12-20,P005,Monitor,Electronics,North,Ethan,19,350,150,0.21,5253.5,3002.0,Net Banking
+S00902,2024-08-09,P009,Headphones,Electronics,East,Alice,15,150,50,0.0,2250.0,1500.0,Cash
+S00903,2024-04-24,P005,Monitor,Electronics,North,Fiona,4,350,150,0.17,1162.0,664.0,Credit Card
+S00904,2024-10-19,P005,Monitor,Electronics,North,George,14,350,150,0.13,4263.0,2436.0,Credit Card
+S00905,2024-02-02,P004,Desk Chair,Furniture,East,Diana,14,250,100,0.24,2660.0,1596.0,Credit Card
+S00906,2024-05-08,P001,Laptop,Electronics,East,,16,1200,800,0.11,17088.0,5696.0,UPI
+S00907,2024-05-01,P002,Mouse,Electronics,Central,Alice,16,30,10,0.06,451.2,300.8,Credit Card
+S00908,2024-02-01,P010,Webcam,Electronics,North,Hannah,20,90,30,0.11,1602.0,1068.0,Credit Card
+S00909,2024-01-29,P007,Pen Pack,Stationery,West,Charlie,11,5,1,0.22,42.9,34.32,Net Banking
+S00910,2024-07-24,P010,Webcam,Electronics,West,Alice,14,90,30,0.02,1234.8,823.2,Credit Card
+S00911,2024-08-07,P010,Webcam,Electronics,West,Alice,14,90,30,0.06,1184.4,789.6,Credit Card
+S00912,2024-10-31,P006,Notebook,Stationery,North,Diana,1,8,2,0.11,7.12,5.34,Credit Card
+S00913,2024-11-13,P010,Webcam,Electronics,West,Ethan,7,90,30,0.23,485.1,323.4,Cash
+S00914,2024-08-11,P003,Keyboard,Electronics,Central,,8,60,20,0.03,465.6,310.4,Net Banking
+S00915,2024-06-24,P005,Monitor,Electronics,Central,Charlie,19,350,150,0.22,5187.0,2964.0,Net Banking
+S00916,2024-10-13,P006,Notebook,Stationery,Central,Charlie,1,8,2,0.13,6.96,5.22,Credit Card
+S00917,2024-04-06,P007,Pen Pack,Stationery,East,Diana,12,5,1,0.05,57.0,45.6,Cash
+S00918,2024-06-17,P008,Standing Desk,Furniture,West,Fiona,20,500,200,0.17,8300.0,4980.0,UPI
+S00919,2024-11-23,P002,Mouse,Electronics,North,Hannah,15,30,10,0.22,351.0,234.0,UPI
+S00920,2024-04-15,P004,Desk Chair,Furniture,West,Fiona,15,250,100,0.16,3150.0,1890.0,Cash
+S00921,2024-05-28,P003,Keyboard,Electronics,South,Alice,1,60,20,0.09,54.6,36.4,Cash
+S00922,2024-03-30,P004,Desk Chair,Furniture,East,Alice,19,250,100,0.23,3657.5,2194.5,UPI
+S00923,2024-05-14,P005,Monitor,Electronics,South,Charlie,6,350,150,0.08,1932.0,1104.0,Credit Card
+S00924,2024-06-05,P001,Laptop,Electronics,South,Bob,5,1200,800,0.09,5460.0,1820.0,Cash
+S00925,2024-03-01,P004,Desk Chair,Furniture,North,George,12,250,100,0.2,2400.0,1440.0,UPI
+S00926,2024-11-21,P003,Keyboard,Electronics,West,Fiona,7,60,20,0.05,399.0,266.0,UPI
+S00927,2024-05-06,P001,Laptop,Electronics,East,Ethan,20,1200,800,0.15,20400.0,6800.0,Credit Card
+S00928,2024-08-28,P005,Monitor,Electronics,North,Hannah,5,350,150,0.21,1382.5,790.0,Credit Card
+S00929,2024-04-01,P003,Keyboard,Electronics,West,Fiona,17,60,20,0.1,918.0,612.0,Net Banking
+S00930,2024-07-24,P006,Notebook,Stationery,Central,Hannah,17,8,2,0.17,112.88,84.66,Credit Card
+S00931,2024-08-05,P004,Desk Chair,Furniture,East,Diana,8,250,100,0.22,1560.0,936.0,Cash
+S00932,2024-05-31,P010,Webcam,Electronics,North,Bob,6,90,30,0.23,415.8,277.2,Cash
+S00933,2024-08-06,P009,Headphones,Electronics,East,,12,150,50,0.06,1692.0,1128.0,Cash
+S00934,2024-04-01,P008,Standing Desk,Furniture,North,Fiona,14,500,200,0.1,6300.0,3780.0,Cash
+S00935,2024-09-19,P004,Desk Chair,Furniture,Central,Bob,9,250,100,0.16,1890.0,1134.0,Credit Card
+S00936,2024-04-10,P005,Monitor,Electronics,East,Alice,8,350,150,0.02,2744.0,1568.0,Net Banking
+S00937,2024-03-11,P005,Monitor,Electronics,Central,Ethan,10,350,150,0.19,2835.0,1620.0,Net Banking
+S00938,2024-12-01,P001,Laptop,Electronics,Central,George,10,1200,800,0.07,11160.0,3720.0,Credit Card
+S00939,2024-08-30,P008,Standing Desk,Furniture,South,George,17,500,200,0.25,6375.0,3825.0,UPI
+S00940,2024-06-09,P009,Headphones,Electronics,North,Hannah,19,150,50,0.2,2280.0,1520.0,UPI
+S00941,2024-03-06,P007,Pen Pack,Stationery,Central,Alice,14,5,1,0.05,66.5,53.2,Net Banking
+S00942,2024-12-17,P001,Laptop,Electronics,West,Fiona,16,1200,800,0.2,15360.0,5120.0,Cash
+S00943,2024-03-19,P009,Headphones,Electronics,South,,10,150,50,0.08,1380.0,920.0,Net Banking
+S00944,2024-07-19,P010,Webcam,Electronics,South,George,20,90,30,0.23,1386.0,924.0,Credit Card
+S00945,2024-02-17,P009,Headphones,Electronics,East,Hannah,13,150,50,0.05,1852.5,1235.0,UPI
+S00946,2024-04-11,P002,Mouse,Electronics,,Hannah,18,30,10,0.04,518.4,345.6,Credit Card
+S00947,2024-09-22,P007,Pen Pack,Stationery,East,Bob,10,5,1,0.05,47.5,38.0,Credit Card
+S00948,2024-10-01,P003,Keyboard,Electronics,South,Charlie,11,60,20,0.21,521.4,347.6,Cash
+S00949,2024-06-07,P008,Standing Desk,Furniture,South,Diana,3,500,200,0.1,1350.0,810.0,Cash
+S00950,2024-05-21,P008,Standing Desk,Furniture,West,Diana,6,500,200,0.15,2550.0,1530.0,UPI
+S00951,2024-09-08,P001,Laptop,Electronics,Central,Diana,5,1200,800,0.11,5340.0,1780.0,Cash
+S00952,2024-07-19,P008,Standing Desk,Furniture,East,Hannah,19,500,200,0.01,9405.0,5643.0,UPI
+S00953,2024-12-23,P007,Pen Pack,Stationery,South,George,8,5,1,0.04,38.4,30.72,Credit Card
+S00954,2024-05-29,P007,Pen Pack,Stationery,Central,Ethan,2,5,1,0.06,9.4,7.52,Credit Card
+S00955,2024-02-23,P004,Desk Chair,Furniture,North,Bob,16,250,100,0.1,3600.0,2160.0,Net Banking
+S00956,2024-11-23,P007,Pen Pack,Stationery,North,Alice,15,5,1,0.04,72.0,57.6,Cash
+S00957,2024-05-08,P007,Pen Pack,Stationery,,George,11,5,1,0.19,44.55,35.64,Credit Card
+S00958,2024-12-02,P003,Keyboard,Electronics,Central,Hannah,11,60,20,0.17,547.8,365.2,UPI
+S00959,2024-11-06,P008,Standing Desk,Furniture,North,Charlie,5,500,200,0.12,2200.0,1320.0,Credit Card
+S00960,2024-12-12,P003,Keyboard,Electronics,North,Charlie,10,60,20,0.03,582.0,388.0,Net Banking
+S00961,2024-04-20,P003,Keyboard,Electronics,Central,Alice,15,60,20,0.09,819.0,546.0,Cash
+S00962,2024-08-15,P001,Laptop,Electronics,East,Bob,17,1200,800,0.16,17136.0,5712.0,Credit Card
+S00963,2024-05-02,P010,Webcam,Electronics,East,Diana,1,90,30,0.01,89.1,59.4,UPI
+S00964,2024-04-22,P002,Mouse,Electronics,North,Fiona,1,30,10,0.11,26.7,17.8,Credit Card
+S00965,2024-11-15,P003,Keyboard,Electronics,South,Fiona,6,60,20,0.01,356.4,237.6,UPI
+S00966,2024-03-29,P009,Headphones,Electronics,East,Diana,13,150,50,0.23,1501.5,1001.0,Credit Card
+S00967,2024-11-28,P007,Pen Pack,Stationery,East,Diana,11,5,1,0.0,55.0,44.0,Net Banking
+S00968,2024-12-30,P001,Laptop,Electronics,North,Hannah,3,1200,800,0.22,2808.0,936.0,UPI
+S00969,2024-06-19,P005,Monitor,Electronics,South,George,4,350,150,0.15,1190.0,680.0,UPI
+S00970,2024-07-14,P006,Notebook,Stationery,West,,16,8,2,0.02,125.44,94.08,UPI
+S00971,2024-03-04,P009,Headphones,Electronics,,,19,150,50,0.18,2337.0,1558.0,Net Banking
+S00972,2024-05-31,P004,Desk Chair,Furniture,West,Alice,14,250,100,0.19,2835.0,1701.0,UPI
+S00973,2024-08-15,P003,Keyboard,Electronics,Central,,13,60,20,0.05,741.0,494.0,Net Banking
+S00974,2024-11-27,P003,Keyboard,Electronics,West,Alice,9,60,20,0.08,496.8,331.2,Net Banking
+S00975,2024-12-06,P001,Laptop,Electronics,North,Diana,8,1200,800,0.21,7584.0,2528.0,UPI
+S00976,2024-02-03,P004,Desk Chair,Furniture,North,Charlie,20,250,100,0.22,3900.0,2340.0,Cash
+S00977,2024-10-30,P002,Mouse,Electronics,South,Diana,7,30,10,0.01,207.9,138.6,UPI
+S00978,2024-05-05,P004,Desk Chair,Furniture,South,Ethan,17,250,100,0.02,4165.0,2499.0,Cash
+S00979,2024-05-19,P003,Keyboard,Electronics,South,Hannah,20,60,20,0.06,1128.0,752.0,Cash
+S00980,2024-08-09,P002,Mouse,Electronics,Central,Hannah,12,30,10,0.1,324.0,216.0,UPI
+S00981,2024-10-31,P008,Standing Desk,Furniture,East,Bob,1,500,200,0.19,405.0,243.0,UPI
+S00982,2024-11-06,P009,Headphones,Electronics,Central,Hannah,6,150,50,0.06,846.0,564.0,Cash
+S00983,2024-01-07,P002,Mouse,Electronics,North,Charlie,11,30,10,0.03,320.1,213.4,Net Banking
+S00984,2024-11-24,P008,Standing Desk,Furniture,East,Fiona,13,500,200,0.23,5005.0,3003.0,Credit Card
+S00985,2024-05-10,P007,Pen Pack,Stationery,West,Charlie,2,5,1,0.25,7.5,6.0,Net Banking
+S00986,2024-05-06,P009,Headphones,Electronics,West,Alice,16,150,50,0.16,2016.0,1344.0,UPI
+S00987,2024-05-13,P008,Standing Desk,Furniture,South,Alice,2,500,200,0.23,770.0,462.0,Cash
+S00988,2024-02-17,P003,Keyboard,Electronics,,Charlie,9,60,20,0.06,507.6,338.4,Cash
+S00989,2024-08-06,P007,Pen Pack,Stationery,South,Diana,19,5,1,0.24,72.2,57.76,Net Banking
+S00990,2024-02-15,P005,Monitor,Electronics,West,George,17,350,150,0.24,4522.0,2584.0,Credit Card
+S00991,2024-12-23,P010,Webcam,Electronics,West,Diana,12,90,30,0.2,864.0,576.0,Net Banking
+S00992,2024-09-25,P001,Laptop,Electronics,West,,6,1200,800,0.2,5760.0,1920.0,Cash
+S00993,2024-09-14,P005,Monitor,Electronics,South,Charlie,14,350,150,0.04,4704.0,2688.0,Credit Card
+S00994,2024-05-12,P008,Standing Desk,Furniture,South,Alice,19,500,200,0.2,7600.0,4560.0,Cash
+S00995,2024-03-04,P008,Standing Desk,Furniture,West,Bob,20,500,200,0.03,9700.0,5820.0,Net Banking
+S00996,2024-01-05,P002,Mouse,Electronics,North,Hannah,11,30,10,0.01,326.7,217.8,Credit Card
+S00997,2024-01-04,P005,Monitor,Electronics,Central,Alice,1,350,150,0.17,290.5,166.0,Cash
+S00998,2024-11-05,P010,Webcam,Electronics,East,Hannah,17,90,30,0.25,1147.5,765.0,Cash
+S00999,2024-12-06,P006,Notebook,Stationery,East,Fiona,12,8,2,0.17,79.68,59.76,Cash
+S01000,2024-08-21,P007,Pen Pack,Stationery,North,Fiona,20,5,1,0.01,99.0,79.2,Cash
+S01001,2024-07-07,P003,Keyboard,Electronics,South,Ethan,1,60,20,0.15,51.0,34.0,Cash
+S01002,2024-01-09,P010,Webcam,Electronics,East,Alice,16,90,30,0.13,1252.8,835.2,Net Banking
+S01003,2024-02-11,P001,Laptop,Electronics,Central,Hannah,11,1200,800,0.17,10956.0,3652.0,Net Banking
+S01004,2024-11-06,P007,Pen Pack,Stationery,East,Bob,16,5,1,0.25,60.0,48.0,UPI
+S01005,2024-06-03,P003,Keyboard,Electronics,North,Alice,17,60,20,0.22,795.6,530.4,Cash
+S01006,2024-12-03,P003,Keyboard,Electronics,South,Diana,15,60,20,0.24,684.0,456.0,Credit Card
+S01007,2024-07-15,P002,Mouse,Electronics,East,,14,30,10,0.25,315.0,210.0,Net Banking
+S01008,2024-11-20,P004,Desk Chair,Furniture,Central,Bob,9,250,100,0.17,1867.5,1120.5,Cash
+S01009,2024-07-14,P002,Mouse,Electronics,West,Bob,11,30,10,0.22,257.4,171.6,Cash
+S01010,2024-04-06,P004,Desk Chair,Furniture,Central,Bob,8,250,100,0.06,1880.0,1128.0,Credit Card
+S01011,2024-06-08,P010,Webcam,Electronics,North,George,12,90,30,0.03,1047.6,698.4,Credit Card
+S01012,2024-12-13,P010,Webcam,Electronics,East,George,18,90,30,0.05,1539.0,1026.0,UPI
+S01013,2024-06-10,P009,Headphones,Electronics,West,Alice,20,150,50,0.15,2550.0,1700.0,UPI
+S01014,2024-11-02,P005,Monitor,Electronics,North,Ethan,8,350,150,0.12,2464.0,1408.0,Net Banking
+S01015,2024-09-10,P005,Monitor,Electronics,South,Hannah,17,350,150,0.25,4462.5,2550.0,Net Banking
+S01016,2024-12-24,P007,Pen Pack,Stationery,South,Diana,2,5,1,0.25,7.5,6.0,Credit Card
+S01017,2024-07-19,P003,Keyboard,Electronics,Central,Charlie,16,60,20,0.18,787.2,524.8,Net Banking
+S01018,2024-05-24,P007,Pen Pack,Stationery,East,George,16,5,1,0.25,60.0,48.0,UPI
+S01019,2024-08-22,P009,Headphones,Electronics,East,Alice,13,150,50,0.02,1911.0,1274.0,UPI
+S01020,2024-11-29,P010,Webcam,Electronics,South,Charlie,5,90,30,0.11,400.5,267.0,Credit Card
+S01021,2024-12-13,P006,Notebook,Stationery,West,Charlie,19,8,2,0.03,147.44,110.58,UPI
+S01022,2024-11-28,P001,Laptop,Electronics,Central,Alice,4,1200,800,0.09,4368.0,1456.0,Net Banking
+S01023,2024-05-03,P010,Webcam,Electronics,North,George,14,90,30,0.24,957.6,638.4,Cash
+S01024,2024-08-25,P008,Standing Desk,Furniture,North,George,10,500,200,0.17,4150.0,2490.0,Cash
+S01025,2024-04-25,P005,Monitor,Electronics,Central,Bob,15,350,150,0.09,4777.5,2730.0,Credit Card
+S01026,2024-07-15,P010,Webcam,Electronics,South,Bob,19,90,30,0.25,1282.5,855.0,Cash
+S01027,2024-04-04,P007,Pen Pack,Stationery,Central,Bob,10,5,1,0.14,43.0,34.4,Cash
+S01028,2024-10-02,P001,Laptop,Electronics,Central,Hannah,13,1200,800,0.14,13416.0,4472.0,Credit Card
+S01029,2024-08-16,P004,Desk Chair,Furniture,,Charlie,4,250,100,0.05,950.0,570.0,Net Banking
+S01030,2024-01-18,P002,Mouse,Electronics,East,Charlie,2,30,10,0.03,58.2,38.8,Credit Card
+S01031,2024-05-07,P002,Mouse,Electronics,North,Charlie,17,30,10,0.07,474.3,316.2,Net Banking
+S01032,2024-12-21,P001,Laptop,Electronics,West,Hannah,17,1200,800,0.23,15708.0,5236.0,Net Banking
+S01033,2024-05-01,P009,Headphones,Electronics,North,Bob,12,150,50,0.15,1530.0,1020.0,Credit Card
+S01034,2024-10-29,P004,Desk Chair,Furniture,South,Charlie,5,250,100,0.07,1162.5,697.5,Net Banking
+S01035,2024-07-23,P005,Monitor,Electronics,South,Ethan,5,350,150,0.18,1435.0,820.0,Cash
+S01036,2024-11-18,P002,Mouse,Electronics,North,Charlie,9,30,10,0.17,224.1,149.4,Net Banking
+S01037,2024-06-10,P004,Desk Chair,Furniture,South,Charlie,12,250,100,0.14,2580.0,1548.0,Cash
+S01038,2024-12-16,P007,Pen Pack,Stationery,North,Ethan,1,5,1,0.24,3.8,3.04,Cash
+S01039,2024-04-25,P002,Mouse,Electronics,South,Fiona,11,30,10,0.16,277.2,184.8,Net Banking
+S01040,2024-03-30,P001,Laptop,Electronics,North,George,4,1200,800,0.09,4368.0,1456.0,Net Banking
+S01041,2024-02-20,P010,Webcam,Electronics,Central,Ethan,16,90,30,0.02,1411.2,940.8,Credit Card
+S01042,2024-10-09,P003,Keyboard,Electronics,Central,Fiona,11,60,20,0.24,501.6,334.4,Cash
+S01043,2024-12-02,P008,Standing Desk,Furniture,South,,19,500,200,0.03,9215.0,5529.0,UPI
+S01044,2024-12-13,P003,Keyboard,Electronics,South,Fiona,13,60,20,0.14,670.8,447.2,Cash
+S01045,2024-08-07,P008,Standing Desk,Furniture,East,Hannah,6,500,200,0.11,2670.0,1602.0,UPI
+S01046,2024-02-09,P005,Monitor,Electronics,North,Fiona,3,350,150,0.24,798.0,456.0,UPI
+S01047,2024-01-06,P002,Mouse,Electronics,West,Ethan,6,30,10,0.14,154.8,103.2,Cash
+S01048,2024-04-07,P009,Headphones,Electronics,Central,Bob,5,150,50,0.12,660.0,440.0,Credit Card
+S01049,2024-12-11,P007,Pen Pack,Stationery,South,Alice,18,5,1,0.19,72.9,58.32,UPI
+S01050,2024-09-10,P003,Keyboard,Electronics,West,Fiona,3,60,20,0.09,163.8,109.2,Cash
+S01051,2024-05-28,P003,Keyboard,Electronics,North,Diana,12,60,20,0.24,547.2,364.8,Net Banking
+S01052,2024-04-21,P008,Standing Desk,Furniture,West,,10,500,200,0.07,4650.0,2790.0,Net Banking
+S01053,2024-11-11,P009,Headphones,Electronics,North,Hannah,2,150,50,0.23,231.0,154.0,Cash
+S01054,2024-07-24,P006,Notebook,Stationery,South,,10,8,2,0.09,72.8,54.6,Net Banking
+S01055,2024-01-04,P001,Laptop,Electronics,West,Charlie,4,1200,800,0.11,4272.0,1424.0,UPI
+S01056,2024-10-01,P005,Monitor,Electronics,South,Fiona,8,350,150,0.12,2464.0,1408.0,Net Banking
+S01057,2024-01-03,P002,Mouse,Electronics,West,Charlie,15,30,10,0.16,378.0,252.0,Net Banking
+S01058,2024-01-17,P004,Desk Chair,Furniture,East,,4,250,100,0.05,950.0,570.0,UPI
+S01059,2024-09-10,P004,Desk Chair,Furniture,Central,Bob,16,250,100,0.24,3040.0,1824.0,UPI
+S01060,2024-01-11,P006,Notebook,Stationery,North,George,13,8,2,0.13,90.48,67.86,UPI
+S01061,2024-08-07,P003,Keyboard,Electronics,East,Diana,12,60,20,0.13,626.4,417.6,Credit Card
+S01062,2024-09-18,P007,Pen Pack,Stationery,South,George,16,5,1,0.07,74.4,59.52,UPI
+S01063,2024-04-11,P004,Desk Chair,Furniture,West,Diana,9,250,100,0.19,1822.5,1093.5,Cash
+S01064,2024-07-24,P002,Mouse,Electronics,South,Charlie,17,30,10,0.15,433.5,289.0,Credit Card
+S01065,2024-07-13,P005,Monitor,Electronics,North,Diana,7,350,150,0.23,1886.5,1078.0,Cash
+S01066,2024-02-01,P009,Headphones,Electronics,West,Diana,10,150,50,0.18,1230.0,820.0,Cash
+S01067,2024-06-12,P001,Laptop,Electronics,South,Fiona,10,1200,800,0.03,11640.0,3880.0,Credit Card
+S01068,2024-05-23,P003,Keyboard,Electronics,West,Fiona,2,60,20,0.0,120.0,80.0,Credit Card
+S01069,2024-12-08,P007,Pen Pack,Stationery,North,Fiona,6,5,1,0.06,28.2,22.56,Credit Card
+S01070,2024-09-27,P009,Headphones,Electronics,Central,Fiona,5,150,50,0.08,690.0,460.0,Net Banking
+S01071,2024-03-02,P004,Desk Chair,Furniture,Central,Bob,9,250,100,0.05,2137.5,1282.5,Credit Card
+S01072,2024-11-12,P010,Webcam,Electronics,Central,Bob,7,90,30,0.05,598.5,399.0,Net Banking
+S01073,2024-04-08,P005,Monitor,Electronics,,Charlie,16,350,150,0.25,4200.0,2400.0,Cash
+S01074,2024-11-18,P009,Headphones,Electronics,West,Fiona,9,150,50,0.22,1053.0,702.0,Credit Card
+S01075,2024-12-22,P007,Pen Pack,Stationery,East,Alice,3,5,1,0.12,13.2,10.56,UPI
+S01076,2024-09-10,P005,Monitor,Electronics,West,Diana,2,350,150,0.24,532.0,304.0,Credit Card
+S01077,2024-04-15,P003,Keyboard,Electronics,East,George,15,60,20,0.19,729.0,486.0,UPI
+S01078,2024-08-21,P001,Laptop,Electronics,Central,Alice,6,1200,800,0.14,6192.0,2064.0,Net Banking
+S01079,2024-09-30,P005,Monitor,Electronics,North,Bob,8,350,150,0.07,2604.0,1488.0,UPI
+S01080,2024-01-27,P005,Monitor,Electronics,East,Ethan,2,350,150,0.16,588.0,336.0,UPI
+S01081,2024-05-15,P004,Desk Chair,Furniture,Central,Fiona,18,250,100,0.03,4365.0,2619.0,UPI
+S01082,2024-05-23,P007,Pen Pack,Stationery,South,Alice,20,5,1,0.07,93.0,74.4,UPI
+S01083,2024-11-30,P005,Monitor,Electronics,West,Bob,1,350,150,0.13,304.5,174.0,Net Banking
+S01084,2024-11-18,P010,Webcam,Electronics,Central,Fiona,18,90,30,0.05,1539.0,1026.0,Cash
+S01085,2024-02-17,P003,Keyboard,Electronics,West,Fiona,15,60,20,0.06,846.0,564.0,Cash
+S01086,2024-11-27,P003,Keyboard,Electronics,South,Diana,15,60,20,0.05,855.0,570.0,Net Banking
+S01087,2024-02-05,P001,Laptop,Electronics,South,George,10,1200,800,0.04,11520.0,3840.0,UPI
+S01088,2024-03-11,P002,Mouse,Electronics,Central,George,14,30,10,0.06,394.8,263.2,Credit Card
+S01089,2024-03-08,P010,Webcam,Electronics,North,,4,90,30,0.09,327.6,218.4,UPI
+S01090,2024-02-24,P002,Mouse,Electronics,North,Alice,9,30,10,0.04,259.2,172.8,Net Banking
+S01091,2024-06-18,P002,Mouse,Electronics,East,Hannah,7,30,10,0.03,203.7,135.8,Cash
+S01092,2024-01-23,P003,Keyboard,Electronics,,Bob,8,60,20,0.01,475.2,316.8,Credit Card
+S01093,2024-01-13,P009,Headphones,Electronics,South,George,10,150,50,0.03,1455.0,970.0,UPI
+S01094,2024-12-17,P007,Pen Pack,Stationery,West,Diana,13,5,1,0.04,62.4,49.92,Credit Card
+S01095,2024-06-19,P008,Standing Desk,Furniture,Central,Ethan,6,500,200,0.25,2250.0,1350.0,Credit Card
+S01096,2024-11-03,P006,Notebook,Stationery,East,Charlie,3,8,2,0.22,18.72,14.04,UPI
+S01097,2024-05-18,P007,Pen Pack,Stationery,North,Ethan,5,5,1,0.22,19.5,15.6,Cash
+S01098,2024-12-01,P006,Notebook,Stationery,South,Bob,9,8,2,0.2,57.6,43.2,UPI
+S01099,2024-10-22,P006,Notebook,Stationery,North,Hannah,5,8,2,0.1,36.0,27.0,Cash
+S01100,2024-06-12,P005,Monitor,Electronics,East,Charlie,5,350,150,0.02,1715.0,980.0,Cash
+S01101,2024-07-15,P007,Pen Pack,Stationery,South,Fiona,16,5,1,0.17,66.4,53.12,Cash
+S01102,2024-08-03,P009,Headphones,Electronics,Central,Diana,16,150,50,0.13,2088.0,1392.0,UPI
+S01103,2024-03-09,P002,Mouse,Electronics,West,Alice,8,30,10,0.09,218.4,145.6,Credit Card
+S01104,2024-10-09,P001,Laptop,Electronics,South,Charlie,12,1200,800,0.09,13104.0,4368.0,Cash
+S01105,2024-07-12,P004,Desk Chair,Furniture,South,Charlie,7,250,100,0.21,1382.5,829.5,Credit Card
+S01106,2024-03-21,P007,Pen Pack,Stationery,Central,Bob,12,5,1,0.01,59.4,47.52,Credit Card
+S01107,2024-03-17,P003,Keyboard,Electronics,West,Alice,12,60,20,0.04,691.2,460.8,UPI
+S01108,2024-08-15,P008,Standing Desk,Furniture,East,Ethan,5,500,200,0.19,2025.0,1215.0,Credit Card
+S01109,2024-09-14,P005,Monitor,Electronics,South,Alice,4,350,150,0.04,1344.0,768.0,UPI
+S01110,2024-10-19,P001,Laptop,Electronics,East,Hannah,13,1200,800,0.21,12324.0,4108.0,Net Banking
+S01111,2024-04-18,P004,Desk Chair,Furniture,South,Bob,14,250,100,0.23,2695.0,1617.0,Cash
+S01112,2024-09-01,P010,Webcam,Electronics,West,Bob,2,90,30,0.05,171.0,114.0,Net Banking
+S01113,2024-02-23,P007,Pen Pack,Stationery,North,George,13,5,1,0.04,62.4,49.92,Credit Card
+S01114,2024-02-24,P006,Notebook,Stationery,Central,Diana,20,8,2,0.19,129.6,97.2,Credit Card
+S01115,2024-05-03,P004,Desk Chair,Furniture,North,Diana,20,250,100,0.0,5000.0,3000.0,Net Banking
+S01116,2024-06-10,P002,Mouse,Electronics,,Hannah,19,30,10,0.14,490.2,326.8,Credit Card
+S01117,2024-07-19,P005,Monitor,Electronics,East,George,1,350,150,0.25,262.5,150.0,Net Banking
+S01118,2024-01-13,P003,Keyboard,Electronics,South,Bob,4,60,20,0.08,220.8,147.2,Cash
+S01119,2024-02-10,P008,Standing Desk,Furniture,West,,19,500,200,0.22,7410.0,4446.0,Credit Card
+S01120,2024-09-21,P004,Desk Chair,Furniture,Central,Charlie,7,250,100,0.2,1400.0,840.0,Net Banking
+S01121,2024-12-30,P008,Standing Desk,Furniture,,George,5,500,200,0.08,2300.0,1380.0,Cash
+S01122,2024-02-19,P004,Desk Chair,Furniture,West,Charlie,7,250,100,0.25,1312.5,787.5,Credit Card
+S01123,2024-06-09,P003,Keyboard,Electronics,West,Bob,10,60,20,0.14,516.0,344.0,UPI
+S01124,2024-12-29,P005,Monitor,Electronics,South,Fiona,6,350,150,0.02,2058.0,1176.0,Cash
+S01125,2024-03-04,P005,Monitor,Electronics,South,Hannah,16,350,150,0.24,4256.0,2432.0,Cash
+S01126,2024-11-15,P001,Laptop,Electronics,Central,Charlie,12,1200,800,0.21,11376.0,3792.0,Net Banking
+S01127,2024-11-13,P006,Notebook,Stationery,North,Ethan,3,8,2,0.17,19.92,14.94,Credit Card
+S01128,2024-07-23,P004,Desk Chair,Furniture,Central,Ethan,18,250,100,0.0,4500.0,2700.0,Credit Card
+S01129,2024-08-26,P004,Desk Chair,Furniture,Central,Fiona,13,250,100,0.22,2535.0,1521.0,Credit Card
+S01130,2024-07-24,P002,Mouse,Electronics,South,George,6,30,10,0.18,147.6,98.4,Net Banking
+S01131,2024-02-28,P002,Mouse,Electronics,West,Diana,11,30,10,0.09,300.3,200.2,Net Banking
+S01132,2024-10-17,P008,Standing Desk,Furniture,East,Charlie,2,500,200,0.14,860.0,516.0,Credit Card
+S01133,2024-01-28,P010,Webcam,Electronics,South,George,13,90,30,0.02,1146.6,764.4,UPI
+S01134,2024-07-26,P001,Laptop,Electronics,East,Bob,14,1200,800,0.07,15624.0,5208.0,Credit Card
+S01135,2024-02-17,P005,Monitor,Electronics,North,Ethan,15,350,150,0.22,4095.0,2340.0,Cash
+S01136,2024-12-18,P006,Notebook,Stationery,Central,George,10,8,2,0.04,76.8,57.6,UPI
+S01137,2024-04-11,P007,Pen Pack,Stationery,Central,Alice,12,5,1,0.23,46.2,36.96,Credit Card
+S01138,2024-08-22,P010,Webcam,Electronics,,Fiona,20,90,30,0.04,1728.0,1152.0,UPI
+S01139,2024-08-18,P008,Standing Desk,Furniture,North,George,11,500,200,0.03,5335.0,3201.0,UPI
+S01140,2024-03-26,P008,Standing Desk,Furniture,Central,Diana,19,500,200,0.02,9310.0,5586.0,Cash
+S01141,2024-01-09,P004,Desk Chair,Furniture,East,Alice,12,250,100,0.05,2850.0,1710.0,Net Banking
+S01142,2024-07-30,P005,Monitor,Electronics,West,Hannah,17,350,150,0.2,4760.0,2720.0,Cash
+S01143,2024-08-22,P006,Notebook,Stationery,South,Fiona,12,8,2,0.21,75.84,56.88,Cash
+S01144,2024-11-20,P006,Notebook,Stationery,West,George,6,8,2,0.14,41.28,30.96,Net Banking
+S01145,2024-11-11,P010,Webcam,Electronics,North,Bob,4,90,30,0.25,270.0,180.0,Cash
+S01146,2024-10-24,P002,Mouse,Electronics,Central,Bob,16,30,10,0.19,388.8,259.2,Credit Card
+S01147,2024-03-04,P005,Monitor,Electronics,West,George,14,350,150,0.05,4655.0,2660.0,Net Banking
+S01148,2024-07-10,P008,Standing Desk,Furniture,,George,14,500,200,0.23,5390.0,3234.0,UPI
+S01149,2024-12-10,P009,Headphones,Electronics,West,Ethan,10,150,50,0.07,1395.0,930.0,UPI
+S01150,2024-11-03,P001,Laptop,Electronics,Central,,14,1200,800,0.01,16632.0,5544.0,Net Banking
+S01151,2024-04-08,P006,Notebook,Stationery,West,Diana,6,8,2,0.24,36.48,27.36,Cash
+S01152,2024-07-25,P001,Laptop,Electronics,South,George,19,1200,800,0.11,20292.0,6764.0,Net Banking
+S01153,2024-07-19,P009,Headphones,Electronics,Central,Charlie,6,150,50,0.11,801.0,534.0,Net Banking
+S01154,2024-01-06,P009,Headphones,Electronics,,Bob,6,150,50,0.24,684.0,456.0,UPI
+S01155,2024-03-07,P001,Laptop,Electronics,North,Bob,20,1200,800,0.18,19680.0,6560.0,Cash
+S01156,2024-07-12,P006,Notebook,Stationery,South,Ethan,6,8,2,0.06,45.12,33.84,Net Banking
+S01157,2024-02-22,P001,Laptop,Electronics,Central,Alice,9,1200,800,0.02,10584.0,3528.0,Credit Card
+S01158,2024-02-09,P008,Standing Desk,Furniture,North,Ethan,20,500,200,0.03,9700.0,5820.0,Cash
+S01159,2024-11-16,P006,Notebook,Stationery,West,Alice,7,8,2,0.1,50.4,37.8,Credit Card
+S01160,2024-06-01,P004,Desk Chair,Furniture,South,Hannah,14,250,100,0.09,3185.0,1911.0,Credit Card
+S01161,2024-09-04,P003,Keyboard,Electronics,East,Bob,19,60,20,0.16,957.6,638.4,Credit Card
+S01162,2024-01-12,P003,Keyboard,Electronics,Central,Diana,17,60,20,0.19,826.2,550.8,UPI
+S01163,2024-12-20,P004,Desk Chair,Furniture,North,Fiona,12,250,100,0.03,2910.0,1746.0,UPI
+S01164,2024-08-27,P005,Monitor,Electronics,East,Fiona,9,350,150,0.12,2772.0,1584.0,Cash
+S01165,2024-07-20,P007,Pen Pack,Stationery,East,Ethan,17,5,1,0.24,64.6,51.68,Credit Card
+S01166,2024-08-04,P010,Webcam,Electronics,West,Hannah,19,90,30,0.08,1573.2,1048.8,Net Banking
+S01167,2024-11-19,P006,Notebook,Stationery,East,Diana,20,8,2,0.03,155.2,116.4,Credit Card
+S01168,2024-11-05,P008,Standing Desk,Furniture,East,Ethan,6,500,200,0.22,2340.0,1404.0,Net Banking
+S01169,2024-05-05,P007,Pen Pack,Stationery,East,George,1,5,1,0.03,4.85,3.88,Credit Card
+S01170,2024-12-18,P004,Desk Chair,Furniture,,Bob,12,250,100,0.09,2730.0,1638.0,Credit Card
+S01171,2024-05-25,P006,Notebook,Stationery,West,Diana,7,8,2,0.12,49.28,36.96,UPI
+S01172,2024-12-15,P009,Headphones,Electronics,West,Bob,7,150,50,0.03,1018.5,679.0,Cash
+S01173,2024-05-20,P006,Notebook,Stationery,North,,11,8,2,0.05,83.6,62.7,Cash
+S01174,2024-05-25,P002,Mouse,Electronics,North,George,4,30,10,0.11,106.8,71.2,Credit Card
+S01175,2024-09-30,P010,Webcam,Electronics,,George,1,90,30,0.23,69.3,46.2,Credit Card
+S01176,2024-06-11,P006,Notebook,Stationery,East,George,1,8,2,0.02,7.84,5.88,Net Banking
+S01177,2024-09-09,P007,Pen Pack,Stationery,West,Alice,3,5,1,0.14,12.9,10.32,Credit Card
+S01178,2024-12-18,P006,Notebook,Stationery,East,Alice,20,8,2,0.03,155.2,116.4,Cash
+S01179,2024-01-03,P004,Desk Chair,Furniture,Central,Fiona,6,250,100,0.02,1470.0,882.0,Credit Card
+S01180,2024-07-13,P005,Monitor,Electronics,Central,Bob,2,350,150,0.03,679.0,388.0,Net Banking
+S01181,2024-07-30,P003,Keyboard,Electronics,Central,Fiona,5,60,20,0.15,255.0,170.0,Cash
+S01182,2024-09-04,P002,Mouse,Electronics,East,Hannah,17,30,10,0.13,443.7,295.8,UPI
+S01183,2024-12-03,P002,Mouse,Electronics,South,Fiona,9,30,10,0.19,218.7,145.8,UPI
+S01184,2024-07-16,P002,Mouse,Electronics,West,Alice,3,30,10,0.24,68.4,45.6,UPI
+S01185,2024-12-28,P008,Standing Desk,Furniture,East,Fiona,4,500,200,0.09,1820.0,1092.0,Cash
+S01186,2024-11-13,P003,Keyboard,Electronics,West,Fiona,17,60,20,0.03,989.4,659.6,UPI
+S01187,2024-11-27,P007,Pen Pack,Stationery,Central,Ethan,7,5,1,0.02,34.3,27.44,Credit Card
+S01188,2024-08-23,P003,Keyboard,Electronics,,Diana,15,60,20,0.22,702.0,468.0,UPI
+S01189,2024-02-13,P005,Monitor,Electronics,Central,Fiona,1,350,150,0.12,308.0,176.0,Net Banking
+S01190,2024-07-08,P007,Pen Pack,Stationery,East,Fiona,7,5,1,0.04,33.6,26.88,Credit Card
+S01191,2024-10-31,P001,Laptop,Electronics,South,Ethan,13,1200,800,0.18,12792.0,4264.0,Net Banking
+S01192,2024-04-22,P009,Headphones,Electronics,North,Alice,20,150,50,0.12,2640.0,1760.0,Credit Card
+S01193,2024-12-24,P001,Laptop,Electronics,Central,Bob,2,1200,800,0.14,2064.0,688.0,Cash
+S01194,2024-04-14,P007,Pen Pack,Stationery,South,Ethan,13,5,1,0.03,63.05,50.44,Net Banking
+S01195,2024-09-01,P005,Monitor,Electronics,Central,,20,350,150,0.07,6510.0,3720.0,Net Banking
+S01196,2024-03-13,P004,Desk Chair,Furniture,West,Charlie,6,250,100,0.08,1380.0,828.0,Credit Card
+S01197,2024-12-13,P008,Standing Desk,Furniture,South,Ethan,14,500,200,0.08,6440.0,3864.0,Credit Card
+S01198,2024-02-26,P010,Webcam,Electronics,West,Hannah,12,90,30,0.24,820.8,547.2,Credit Card
+S01199,2024-03-16,P001,Laptop,Electronics,South,Diana,19,1200,800,0.17,18924.0,6308.0,Credit Card
+S01200,2024-05-11,P002,Mouse,Electronics,Central,Hannah,10,30,10,0.2,240.0,160.0,Cash

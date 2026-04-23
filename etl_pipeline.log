@@ -1,0 +1,138 @@
+2026-04-23 22:00:06,593 [INFO] main - ============================================================
+2026-04-23 22:00:06,593 [INFO] main -   Sales ETL Pipeline — START
+2026-04-23 22:00:06,593 [INFO] main - ============================================================
+2026-04-23 22:00:06,593 [INFO] main - --- PHASE 1: EXTRACT ---
+2026-04-23 22:00:06,838 [ERROR] main - Pipeline failed: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+Traceback (most recent call last):
+  File "C:\sales_etl_pipeline\main.py", line 33, in run_pipeline
+    spark = create_spark_session()
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sales_etl_pipeline\etl\extract.py", line 34, in create_spark_session
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "C:\Users\Harini\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyspark\sql\session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Harini\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyspark\context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "C:\Users\Harini\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyspark\context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "C:\Users\Harini\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyspark\context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Harini\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyspark\java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+2026-04-23 22:25:41,162 [INFO] main - ============================================================
+2026-04-23 22:25:41,162 [INFO] main -   Sales ETL Pipeline — START
+2026-04-23 22:25:41,162 [INFO] main - ============================================================
+2026-04-23 22:25:41,162 [INFO] main - --- PHASE 1: EXTRACT ---
+2026-04-23 22:25:44,699 [INFO] etl.extract - Extracting data from: data/raw_sales.csv
+2026-04-23 22:25:45,945 [ERROR] main - Pipeline failed: [PATH_NOT_FOUND] Path does not exist: file:/C:/sales_etl_pipeline/data/raw_sales.csv.
+Traceback (most recent call last):
+  File "C:\sales_etl_pipeline\main.py", line 34, in run_pipeline
+    raw_df = extract(spark, RAW_DATA_PATH)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sales_etl_pipeline\etl\extract.py", line 41, in extract
+    df = spark.read.csv(
+         ^^^^^^^^^^^^^^^
+  File "C:\Users\Harini\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyspark\sql\readwriter.py", line 740, in csv
+    return self._df(self._jreader.csv(self._spark._sc._jvm.PythonUtils.toSeq(path)))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Harini\AppData\Local\Programs\Python\Python311\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Harini\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.AnalysisException: [PATH_NOT_FOUND] Path does not exist: file:/C:/sales_etl_pipeline/data/raw_sales.csv.
+2026-04-23 22:25:46,086 [INFO] main - Spark session stopped.
+2026-04-23 22:25:46,095 [INFO] py4j.clientserver - Closing down clientserver connection
+2026-04-23 22:34:11,911 [INFO] main - ============================================================
+2026-04-23 22:34:11,911 [INFO] main -   Sales ETL Pipeline — START
+2026-04-23 22:34:11,911 [INFO] main - ============================================================
+2026-04-23 22:34:11,911 [INFO] main - --- PHASE 1: EXTRACT ---
+2026-04-23 22:34:15,002 [INFO] etl.extract - Extracting data from: data/raw_sales.csv
+2026-04-23 22:34:18,232 [INFO] etl.extract - Extracted 1200 rows from data/raw_sales.csv
+2026-04-23 22:34:18,232 [INFO] main - --- PHASE 2: TRANSFORM ---
+2026-04-23 22:34:18,232 [INFO] etl.transform - Starting cleaning step...
+2026-04-23 22:34:19,858 [INFO] etl.transform - Cleaning done: 1200 -> 1200 rows (dropped 0)
+2026-04-23 22:34:19,858 [INFO] etl.transform - Adding derived columns...
+2026-04-23 22:34:19,973 [INFO] etl.transform - Aggregating to daily summary...
+2026-04-23 22:34:21,255 [INFO] etl.transform - Aggregation produced 1073 summary rows
+2026-04-23 22:34:21,288 [INFO] main - --- PHASE 3: LOAD ---
+2026-04-23 22:34:22,135 [INFO] etl.load - Loading 1200 rows into fact_sales...
+2026-04-23 22:34:22,233 [ERROR] main - Pipeline failed: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+Traceback (most recent call last):
+  File "C:\sales_etl_pipeline\main.py", line 42, in run_pipeline
+    load(fact_df, agg_df, DB_CONFIG)
+  File "C:\sales_etl_pipeline\etl\load.py", line 99, in load
+    upsert_fact_sales(fact_df, db_config)
+  File "C:\sales_etl_pipeline\etl\load.py", line 43, in upsert_fact_sales
+    conn = get_connection(db_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sales_etl_pipeline\etl\load.py", line 12, in get_connection
+    conn = psycopg2.connect(**db_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Harini\AppData\Local\Programs\Python\Python311\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+2026-04-23 22:34:22,466 [INFO] main - Spark session stopped.
+2026-04-23 22:34:22,474 [INFO] py4j.clientserver - Closing down clientserver connection
+2026-04-23 22:48:25,602 [INFO] main - ============================================================
+2026-04-23 22:48:25,603 [INFO] main -   Sales ETL Pipeline — START
+2026-04-23 22:48:25,603 [INFO] main - ============================================================
+2026-04-23 22:48:25,603 [INFO] main - --- PHASE 1: EXTRACT ---
+2026-04-23 22:48:28,725 [INFO] etl.extract - Extracting data from: data/raw_sales.csv
+2026-04-23 22:48:31,491 [INFO] etl.extract - Extracted 1200 rows from data/raw_sales.csv
+2026-04-23 22:48:31,493 [INFO] main - --- PHASE 2: TRANSFORM ---
+2026-04-23 22:48:31,493 [INFO] etl.transform - Starting cleaning step...
+2026-04-23 22:48:32,407 [INFO] etl.transform - Cleaning done: 1200 -> 1200 rows (dropped 0)
+2026-04-23 22:48:32,407 [INFO] etl.transform - Adding derived columns...
+2026-04-23 22:48:32,484 [INFO] etl.transform - Aggregating to daily summary...
+2026-04-23 22:48:33,238 [INFO] etl.transform - Aggregation produced 1073 summary rows
+2026-04-23 22:48:33,258 [INFO] main - --- PHASE 3: LOAD ---
+2026-04-23 22:48:33,729 [INFO] etl.load - Loading 1200 rows into fact_sales...
+2026-04-23 22:48:33,877 [ERROR] main - Pipeline failed: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "sales_db" does not exist
+Traceback (most recent call last):
+  File "C:\sales_etl_pipeline\main.py", line 42, in run_pipeline
+    load(fact_df, agg_df, DB_CONFIG)
+  File "C:\sales_etl_pipeline\etl\load.py", line 99, in load
+    upsert_fact_sales(fact_df, db_config)
+  File "C:\sales_etl_pipeline\etl\load.py", line 43, in upsert_fact_sales
+    conn = get_connection(db_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sales_etl_pipeline\etl\load.py", line 12, in get_connection
+    conn = psycopg2.connect(**db_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Harini\AppData\Local\Programs\Python\Python311\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "sales_db" does not exist
+
+2026-04-23 22:48:34,190 [INFO] main - Spark session stopped.
+2026-04-23 22:48:34,197 [INFO] py4j.clientserver - Closing down clientserver connection
+2026-04-23 23:10:29,610 [INFO] main - ============================================================
+2026-04-23 23:10:29,610 [INFO] main -   Sales ETL Pipeline — START
+2026-04-23 23:10:29,610 [INFO] main - ============================================================
+2026-04-23 23:10:29,610 [INFO] main - --- PHASE 1: EXTRACT ---
+2026-04-23 23:10:32,660 [INFO] etl.extract - Extracting data from: data/raw_sales.csv
+2026-04-23 23:10:35,201 [INFO] etl.extract - Extracted 1200 rows from data/raw_sales.csv
+2026-04-23 23:10:35,201 [INFO] main - --- PHASE 2: TRANSFORM ---
+2026-04-23 23:10:35,201 [INFO] etl.transform - Starting cleaning step...
+2026-04-23 23:10:36,445 [INFO] etl.transform - Cleaning done: 1200 -> 1200 rows (dropped 0)
+2026-04-23 23:10:36,445 [INFO] etl.transform - Adding derived columns...
+2026-04-23 23:10:36,519 [INFO] etl.transform - Aggregating to daily summary...
+2026-04-23 23:10:37,449 [INFO] etl.transform - Aggregation produced 1073 summary rows
+2026-04-23 23:10:37,465 [INFO] main - --- PHASE 3: LOAD ---
+2026-04-23 23:10:38,026 [INFO] etl.load - Loading 1200 rows into fact_sales...
+2026-04-23 23:10:38,112 [INFO] etl.load - fact_sales: 1200 rows upserted successfully.
+2026-04-23 23:10:38,926 [INFO] etl.load - Loading 1073 rows into agg_daily_sales...
+2026-04-23 23:10:38,983 [INFO] etl.load - agg_daily_sales: 1073 rows upserted successfully.
+2026-04-23 23:10:38,983 [INFO] etl.load - All data loaded into PostgreSQL successfully.
+2026-04-23 23:10:38,983 [INFO] main - ============================================================
+2026-04-23 23:10:38,983 [INFO] main -   Pipeline completed successfully in 9.37s
+2026-04-23 23:10:38,983 [INFO] main - ============================================================
+2026-04-23 23:10:39,630 [INFO] main - Spark session stopped.
+2026-04-23 23:10:39,638 [INFO] py4j.clientserver - Closing down clientserver connection
